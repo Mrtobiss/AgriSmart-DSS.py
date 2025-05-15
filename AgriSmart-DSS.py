@@ -41,10 +41,17 @@ def validate_data(df):
 
 if not validate_data(df):
     st.stop()
+
+# Clean data 
+df = df.dropna(subset=['Crop', 'Farm Location'])
+df['Crop'] = df['Crop'].str.strip().str.title()  # Standardize case
+df['Farm Location'] = df['Farm Location'].str.strip()
     
 # Clean column names if needed
 df.columns = df.columns.str.strip()
 
+if st.checkbox("Show sample data"):
+    st.write(df.sample(5))
 # ======================
 # DSS CORE FUNCTIONS 
 # ======================
