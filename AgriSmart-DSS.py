@@ -17,6 +17,31 @@ def load_data():
 
 df = load_data()
 
+# validate data
+def validate_data(df):
+    """Check for required columns and data"""
+    required_cols = [
+        'Farm Location', 'Crop', 'cold storage location',
+        'optimal storage temp(degree c)', 
+        'spoilage rate at optimal temp(%)per week'
+    ]
+    
+    missing = [col for col in required_cols if col not in df.columns]
+    if missing:
+        st.error(f"Missing columns: {missing}")
+        return False
+        
+    # Check for null values in key columns
+    null_report = df[required_cols].isnull().sum()
+    if null_report.sum() > 0:
+        st.warning("Null values found:")
+        st.write(null_report[null_report > 0])
+        
+    return True
+
+if not validate_data(df):
+    st.stop()
+    
 # Clean column names if needed
 df.columns = df.columns.str.strip()
 
@@ -24,11 +49,38 @@ df.columns = df.columns.str.strip()
 # DSS CORE FUNCTIONS 
 # ======================
 def get_recommendations(farm_loc, crop_type):
-    """Get nearest storage & market using your dataset"""
-    results = df[(df['Farm Location'] == farm_loc) & 
-                (df['Crop'].str.lower() == crop_type.lower())]
-    
-    if results.empty:
+    """Case-insensitive search with exact matching"""
+    try:
+        # Convert both to lowercase for comparison
+        results = df[
+            (df['Farm Location'].str.strip().str.lower() == farm_loc.strip().lower()) & 
+            (df['Crop'].str.strip().str.lower() == crop_type.strip().lower())
+        ]
+        
+        if results.empty:
+            # Try fuzzy matching if exact match fails
+            results = df[
+                df['Farm Location'].str.strip().str.lower().str.contains(farm_loc.strip().lower()) & 
+                df['Crop'].str.strip().str.lower().str.contains(crop_type.strip().lower())
+            ]
+            
+        if not results.empty:
+            nearest = results.sort_values('farm to cold storage(km)').iloc[0]
+            return {
+                "storage_name": nearest['cold storage location'],
+                "storage_km": nearest['farm to cold storage(km)'],
+                "storage_hrs": nearest['farm to cold storage(hrs)'],
+                "market_name": nearest['market location'],
+                "market_km": nearest['cold storage to market(km)'],
+                "market_hrs": nearest['cold storage to market(hrs)'],
+                "optimal_temp": nearest['optimal storage temp(degree c)'],
+                "spoilage_rate": nearest['spoilage rate at optimal temp(%)per week'],
+                "storage_cost": f"₦{nearest['storage cost(#/crate/day)']}/crate/day",
+                "transport_cost": f"₦{int(nearest['transport cost for 20 ton load(#/km)'] * nearest['farm to cold storage(km)']):,}"
+            }
+        return None
+    except Exception as e:
+        st.error(f"Error in recommendation: {str(e)}")
         return None
         
     # Get the nearest storage facility
@@ -51,6 +103,13 @@ def get_recommendations(farm_loc, crop_type):
         "storage_cost": f"₦{nearest['storage cost(#/crate/day)']}/crate/day",
         "transport_cost": f"₦{int(nearest['transport cost for 20 ton load(#/km)'] * nearest['farm to cold storage(km)']):,}"
     }
+
+if st.button("Generate Recommendations", type="primary"):
+    st.write(f"Debug - Searching for: Location='{farm_location}', Crop='{crop}'")
+    st.write(f"Available Locations: {df['Farm Location'].unique()[:5]}...")
+    st.write(f"Available Crops: {df['Crop'].unique()}")
+    
+    rec = get_recommendations(farm_location, crop)
 
 # ======================
 # DSS USER INTERFACE
@@ -132,24 +191,40 @@ with st.container():
     tab1, tab2 = st.tabs(["Crop Guidelines", "About This System"])
     
 with tab1:
-    # Only show target crops
     focus_crops = ["Tomato", "Okra", "Cabbage", "Yam", "Pepper"]
     for crop_name in focus_crops:
         with st.expander(f"{crop_name.upper()} GUIDELINES"):
-            # Get data 
-            crop_data = df[df['Crop'].str.lower() == crop_name.lower()]
-            
-            # Display key metrics
-            st.metric("Optimal Storage Temp", 
-                     f"{crop_data['optimal storage temp(degree c)'].mean():.1f}°C")
-            st.metric("Avg Weekly Spoilage", 
-                     f"{crop_data['spoilage rate at optimal temp(%)per week'].mean():.1f}%")
-            
-            # Show top 3 storage locations
-            st.write("**Top Storage Facilities:**")
-            top_locations = crop_data['cold storage location'].value_counts().head(3)
-            for loc, count in top_locations.items():
-                st.markdown(f"- {loc} ({count} farms served)")
+            try:
+                # Get and clean data
+                crop_data = df[df['Crop'].str.strip().str.lower() == crop_name.lower().strip()]
+                crop_data = crop_data.dropna(subset=[
+                    'optimal storage temp(degree c)',
+                    'spoilage rate at optimal temp(%)per week'
+                ])
+                
+                if not crop_data.empty:
+                    # Calculate metrics
+                    avg_temp = crop_data['optimal storage temp(degree c)'].mean()
+                    avg_spoilage = crop_data['spoilage rate at optimal temp(%)per week'].mean()
+                    
+                    # Display metrics
+                    st.metric("Optimal Storage Temp", 
+                             f"{avg_temp:.1f}°C" if not pd.isna(avg_temp) else "Data unavailable")
+                    st.metric("Avg Weekly Spoilage", 
+                             f"{avg_spoilage:.1f}%" if not pd.isna(avg_spoilage) else "Data unavailable")
+                    
+                    # Show top locations
+                    top_locs = crop_data['cold storage location'].value_counts().head(3)
+                    if not top_locs.empty:
+                        st.write("**Top Storage Facilities:**")
+                        for loc, count in top_locs.items():
+                            st.markdown(f"- {loc} ({count} farms served)")
+                    else:
+                        st.warning("No storage facility data available")
+                else:
+                    st.warning(f"No data available for {crop_name}")
+            except Exception as e:
+                st.error(f"Error loading {crop_name} data: {str(e)}")
     
 with tab2:
     st.markdown("""
