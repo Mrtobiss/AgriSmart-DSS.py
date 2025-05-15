@@ -1,4 +1,4 @@
-Farmer Name,Farm Location,Crop,cold storage location,farm to cold storage(km),farm to cold storage(hrs),market location,cold storage to market(km),cold storage to market(hrs),optimal storage temp(degree c),spoilage rate at optimal temp(%)per week,Logistics Provider,storage cost(#/crate/day),transport cost for 20 ton load(#/km)
+Farmer Name,farm_location,crop,cold storage location,farm to cold storage(km),farm to cold storage(hrs),market location,cold storage to market(km),cold storage to market(hrs),optimal storage temp(degree c),spoilage rate at optimal temp(%)per week,Logistics Provider,storage cost(#/crate/day),transport cost for 20 ton load(#/km)
 Gozi Yahaya,Sokoto City,Okra,"Yankaba Market, Kano, Kano State",375.39,6.26,Enugu,801.37,13.36,8,7.5,ColdHub Cold Storage,300,3791
 Yemi Kanu,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Onitsha,494,8.23,0,3.5,ColdHub Cold Storage,300,3791
 Lami Nduka,Lafia,Okra,"Orange Market, Mararaba, Nasarawa State",50,0.83,Lagos,737.11,12.29,8,7.5,ColdHub Cold Storage,300,3791
