@@ -1,0 +1,1001 @@
+Farmer Name,Farm Location,Crop,cold storage location,farm to cold storage(km),farm to cold storage(hrs),market location,cold storage to market(km),cold storage to market(hrs),optimal storage temp(degree c),spoilage rate at optimal temp(%)per week,Logistics Provider,storage cost(#/crate/day),transport cost for 20 ton load(#/km)
+Gozi Yahaya,Sokoto City,Okra,"Yankaba Market, Kano, Kano State",375.39,6.26,Enugu,801.37,13.36,8,7.5,ColdHub Cold Storage,300,3791
+Yemi Kanu,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Onitsha,494,8.23,0,3.5,ColdHub Cold Storage,300,3791
+Lami Nduka,Lafia,Okra,"Orange Market, Mararaba, Nasarawa State",50,0.83,Lagos,737.11,12.29,8,7.5,ColdHub Cold Storage,300,3791
+Femi Faniyi,Jos,Peppers,"Building Materials Market, Jos, Plateau State",50,0.83,Abuja,232.62,3.88,8,5,ColdHub Cold Storage,300,3791
+Ike Yahaya,Kano City,Peppers,"Yankaba Market, Kano, Kano State",50,0.83,Lagos,992.07,16.53,8,5,ColdHub Cold Storage,300,3791
+Ola Hassan,Yola,Yams,"Bypass Market, Yola, Adamawa State",50,0.83,Abuja,790,13.17,15,2,ColdHub Cold Storage,300,3791
+Lami Nduka,Sokoto City,Peppers,"Yankaba Market, Kano, Kano State",375.39,6.26,Abuja,428.76,7.15,8,5,ColdHub Cold Storage,300,3791
+Titi Ibeh,Dutse,Tomatoes,"Yankaba Market, Kano, Kano State",117.87,1.96,Jos,279.86,4.66,8,7.5,ColdHub Cold Storage,300,3791
+Uche Bello,Abakaliki,Okra,"Abakaliki Market, Ebonyi State",50,0.83,Lagos,630,10.50,8,7.5,ColdHub Cold Storage,300,3791
+Uche Sule,Dutse,Tomatoes,"Yankaba Market, Kano, Kano State",117.87,1.96,Jos,279.86,4.66,8,7.5,ColdHub Cold Storage,300,3791
+Femi Rimi,Enugu City,Okra,"Old Artisan Market, Enugu State",50,0.83,Kano,828,13.80,8,7.5,ColdHub Cold Storage,300,3791
+Musa Hassan,Kaduna City,Peppers,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Abuja,195.51,3.26,8,5,ColdHub Cold Storage,300,3791
+Sani Lawal,Lokoja,Okra,"Dei Dei Regional Market, Abuja, FCT",130.92,2.18,Kano,421,7.02,8,7.5,ColdHub Cold Storage,300,3791
+Zainab Popoola,Kano City,Okra,"Yankaba Market, Kano, Kano State",50,0.83,Ibadan,865.35,14.42,8,7.5,ColdHub Cold Storage,300,3791
+Zainab Rimi,Gombe City,Tomatoes,"Muda Lawal Market, Bauchi, Bauchi State",145.61,2.43,Abuja,395,6.58,8,7.5,ColdHub Cold Storage,300,3791
+Zainab Jallo,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Onitsha,75.64,1.26,0,3.5,ColdHub Cold Storage,300,3791
+Titi Abara,Lokoja,Okra,"Dei Dei Regional Market, Abuja, FCT",130.92,2.18,Ibadan,581,9.68,8,7.5,ColdHub Cold Storage,300,3791
+Uche Quadri,Kaduna City,Peppers,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Aba,727.17,12.12,8,5,ColdHub Cold Storage,300,3791
+Musa Ibeh,Bauchi City,Tomatoes,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Abuja,395,6.58,8,7.5,ColdHub Cold Storage,300,3791
+Bola Yahaya,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Warri,597,9.95,0,3.5,ColdHub Cold Storage,300,3791
+Jide Tanimu,Kano City,Okra,"Yankaba Market, Kano, Kano State",50,0.83,Enugu,801.37,13.36,8,7.5,ColdHub Cold Storage,300,3791
+Kemi Cole,Sokoto City,Peppers,"Yankaba Market, Kano, Kano State",375.39,6.26,Aba,727.17,12.12,8,5,ColdHub Cold Storage,300,3791
+Wale Popoola,Makurdi,Peppers,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Aba,593,9.88,8,5,ColdHub Cold Storage,300,3791
+Sani Umar,Gombe City,Tomatoes,"Muda Lawal Market, Bauchi, Bauchi State",145.61,2.43,Lagos,1159,19.32,8,7.5,ColdHub Cold Storage,300,3791
+Ike Lawal,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Lagos,958.27,15.97,0,3.5,ColdHub Cold Storage,300,3791
+Yemi Sule,Awka,Okra,"Old Artisan Market, Enugu State",54.97,0.92,Lagos,588.82,9.81,8,7.5,ColdHub Cold Storage,300,3791
+Sani Rimi,Makurdi,Okra,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Kano,442,7.37,8,7.5,ColdHub Cold Storage,300,3791
+Vera Ojo,Bauchi City,Peppers,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Lagos,1159,19.32,8,5,ColdHub Cold Storage,300,3791
+Pius Eze,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Warri,531.11,8.85,0,3.5,ColdHub Cold Storage,300,3791
+Zainab Garba,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Lagos,958.27,15.97,0,3.5,ColdHub Cold Storage,300,3791
+Ade Hassan,Lafia,Tomatoes,"Orange Market, Mararaba, Nasarawa State",50,0.83,Abuja,50,0.83,8,7.5,ColdHub Cold Storage,300,3791
+Gozi Quadri,Jos,Yams,"Building Materials Market, Jos, Plateau State",50,0.83,Makurdi,135.32,2.26,15,2,ColdHub Cold Storage,300,3791
+Ike Quadri,Kano City,Tomatoes,"Yankaba Market, Kano, Kano State",50,0.83,Kano,50,0.83,8,7.5,ColdHub Cold Storage,300,3791
+Habib Umar,Lafia,Yams,"Orange Market, Mararaba, Nasarawa State",50,0.83,Lagos,737.11,12.29,15,2,ColdHub Cold Storage,300,3791
+Habib Rimi,Oshogbo,Okra,"Oja Tun Tun Market, Ile-Ife, Osun State",50,0.83,Kano,727.17,12.12,8,7.5,ColdHub Cold Storage,300,3791
+Kemi Abara,Lokoja,Okra,"Dei Dei Regional Market, Abuja, FCT",130.92,2.18,Lagos,775,12.92,8,7.5,ColdHub Cold Storage,300,3791
+Wale Eze,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Onitsha,492.34,8.21,0,3.5,ColdHub Cold Storage,300,3791
+Wale Rimi,Lokoja,Yams,"Dei Dei Regional Market, Abuja, FCT",130.92,2.18,Makurdi,293,4.88,15,2,ColdHub Cold Storage,300,3791
+Zainab Faniyi,Kaduna City,Yams,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Abuja,195.51,3.26,15,2,ColdHub Cold Storage,300,3791
+Musa Yahaya,Kaduna City,Yams,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Abuja,195.51,3.26,15,2,ColdHub Cold Storage,300,3791
+Ike Garba,Makurdi,Peppers,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Lagos,737.11,12.29,8,5,ColdHub Cold Storage,300,3791
+Wale Vatsa,Jos,Yams,"Building Materials Market, Jos, Plateau State",50,0.83,Makurdi,349.2,5.82,15,2,ColdHub Cold Storage,300,3791
+Chi Hassan,Bauchi City,Tomatoes,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Lagos,1159,19.32,8,7.5,ColdHub Cold Storage,300,3791
+Quin Tanimu,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Lagos,992.07,16.53,0,3.5,ColdHub Cold Storage,300,3791
+Habib Jallo,Kano City,Peppers,"Yankaba Market, Kano, Kano State",50,0.83,Lagos,992.07,16.53,8,5,ColdHub Cold Storage,300,3791
+Uche Abara,Makurdi,Peppers,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Aba,593,9.88,8,5,ColdHub Cold Storage,300,3791
+Kemi Garba,Asaba,Okra,"Smart farmers Market Summit junction, Delta State",50,0.83,Kano,387.52,6.46,8,7.5,ColdHub Cold Storage,300,3791
+Chi Quadri,Enugu City,Okra,"Old Artisan Market, Enugu State",50,0.83,Ibadan,537.92,8.97,8,7.5,ColdHub Cold Storage,300,3791
+Femi Kanu,Makurdi,Yams,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Abuja,50,0.83,15,2,ColdHub Cold Storage,300,3791
+Wale Yahaya,Oshogbo,Okra,"Oja Tun Tun Market, Ile-Ife, Osun State",50,0.83,Kano,727.17,12.12,8,7.5,ColdHub Cold Storage,300,3791
+Titi Garba,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Lagos,737.11,12.29,0,3.5,ColdHub Cold Storage,300,3791
+Sani Ojo,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Port Harcourt,1091,18.18,0,3.5,ColdHub Cold Storage,300,3791
+Kemi Quadri,Kaduna City,Yams,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Abuja,195.51,3.26,15,2,ColdHub Cold Storage,300,3791
+Remi Yahaya,Sokoto City,Tomatoes,"Yankaba Market, Kano, Kano State",375.39,6.26,Abuja,428.76,7.15,8,7.5,ColdHub Cold Storage,300,3791
+Zainab Williams,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Port Harcourt,756.55,12.61,0,3.5,ColdHub Cold Storage,300,3791
+Ade Jallo,Ibadan,Yams,"Bodija Market, Ibadan, Oyo State",50,0.83,Abuja,617.21,10.29,15,2,ColdHub Cold Storage,300,3791
+Bola Umar,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Abuja,428.76,7.15,0,3.5,ColdHub Cold Storage,300,3791
+Gozi Yahaya,Katsina City,Tomatoes,"Yankaba Market, Kano, Kano State",147.91,2.47,Kano,50,0.83,8,7.5,ColdHub Cold Storage,300,3791
+Musa Eze,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Port Harcourt,807.03,13.45,0,3.5,ColdHub Cold Storage,300,3791
+Lami Hassan,Jos,Peppers,"Building Materials Market, Jos, Plateau State",50,0.83,Lagos,958.27,15.97,8,5,ColdHub Cold Storage,300,3791
+Uche Umar,Jos,Tomatoes,"Building Materials Market, Jos, Plateau State",50,0.83,Abuja,232.62,3.88,8,7.5,ColdHub Cold Storage,300,3791
+Uche Tanimu,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Port Harcourt,1091,18.18,0,3.5,ColdHub Cold Storage,300,3791
+Gozi Zubair,Makurdi,Okra,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Lagos,737.11,12.29,8,7.5,ColdHub Cold Storage,300,3791
+Sani Popoola,Ibadan,Peppers,"Bodija Market, Ibadan, Oyo State",50,0.83,Lagos,130.82,2.18,8,5,ColdHub Cold Storage,300,3791
+Zainab Hassan,Kaduna City,Okra,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Enugu,568.12,9.47,8,7.5,ColdHub Cold Storage,300,3791
+Wale Garba,Lokoja,Yams,"Dei Dei Regional Market, Abuja, FCT",130.92,2.18,Abuja,50,0.83,15,2,ColdHub Cold Storage,300,3791
+Ike Lawal,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Onitsha,288.57,4.81,0,3.5,ColdHub Cold Storage,300,3791
+Jide Rimi,Minna,Yams,"Dei Dei Regional Market, Abuja, FCT",177.5,2.96,Lagos,623,10.38,15,2,ColdHub Cold Storage,300,3791
+Ngozi Hassan,Lafia,Yams,"Orange Market, Mararaba, Nasarawa State",50,0.83,Makurdi,267,4.45,15,2,ColdHub Cold Storage,300,3791
+Ike Yahaya,Sokoto City,Tomatoes,"Yankaba Market, Kano, Kano State",375.39,6.26,Kano,50,0.83,8,7.5,ColdHub Cold Storage,300,3791
+Chi Yahaya,Kano City,Okra,"Yankaba Market, Kano, Kano State",50,0.83,Lagos,992.07,16.53,8,7.5,ColdHub Cold Storage,300,3791
+Gozi Kanu,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Onitsha,866,14.43,0,3.5,ColdHub Cold Storage,300,3791
+Titi Umar,Kano City,Peppers,"Yankaba Market, Kano, Kano State",50,0.83,Lagos,992.07,16.53,8,5,ColdHub Cold Storage,300,3791
+Wale Rimi,Jos,Peppers,"Building Materials Market, Jos, Plateau State",50,0.83,Abuja,232.62,3.88,8,5,ColdHub Cold Storage,300,3791
+Remi Danjuma,Ibadan,Peppers,"Bodija Market, Ibadan, Oyo State",50,0.83,Lagos,130.82,2.18,8,5,ColdHub Cold Storage,300,3791
+Ade Mohammed,Sokoto City,Tomatoes,"Yankaba Market, Kano, Kano State",375.39,6.26,Abuja,428.76,7.15,8,7.5,ColdHub Cold Storage,300,3791
+Musa Umar,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Port Harcourt,756.55,12.61,0,3.5,ColdHub Cold Storage,300,3791
+Femi Rimi,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Port Harcourt,650,10.83,0,3.5,ColdHub Cold Storage,300,3791
+Remi Hassan,Oshogbo,Okra,"Oja Tun Tun Market, Ile-Ife, Osun State",50,0.83,Ibadan,165,2.75,8,7.5,ColdHub Cold Storage,300,3791
+Titi Mohammed,Lafia,Okra,"Orange Market, Mararaba, Nasarawa State",50,0.83,Kano,442,7.37,8,7.5,ColdHub Cold Storage,300,3791
+Kemi Bello,Awka,Okra,"Old Artisan Market, Enugu State",54.97,0.92,Lagos,588.82,9.81,8,7.5,ColdHub Cold Storage,300,3791
+Lami Faniyi,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Port Harcourt,650,10.83,0,3.5,ColdHub Cold Storage,300,3791
+Dami Ojo,Calabar,Yams,"Abakaliki Market, Ebonyi State",82.95,1.38,Makurdi,273.12,4.55,15,2,ColdHub Cold Storage,300,3791
+Habib Ojo,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Warri,958,15.97,0,3.5,ColdHub Cold Storage,300,3791
+Femi Faniyi,Lafia,Okra,"Orange Market, Mararaba, Nasarawa State",50,0.83,Enugu,413,6.88,8,7.5,ColdHub Cold Storage,300,3791
+Musa Abara,Abakaliki,Yams,"Abakaliki Market, Ebonyi State",50,0.83,Ibadan,684.86,11.41,15,2,ColdHub Cold Storage,300,3791
+Vera Bello,Yola,Yams,"Bypass Market, Yola, Adamawa State",50,0.83,Abuja,790,13.17,15,2,ColdHub Cold Storage,300,3791
+Ike Umar,Enugu City,Okra,"Old Artisan Market, Enugu State",50,0.83,Enugu,50,0.83,8,7.5,ColdHub Cold Storage,300,3791
+Uche Vatsa,Bauchi City,Peppers,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Aba,882,14.70,8,5,ColdHub Cold Storage,300,3791
+Zainab Ojo,Lokoja,Okra,"Dei Dei Regional Market, Abuja, FCT",130.92,2.18,Ibadan,581,9.68,8,7.5,ColdHub Cold Storage,300,3791
+Uche Quadri,Jos,Peppers,"Building Materials Market, Jos, Plateau State",50,0.83,Lagos,958.27,15.97,8,5,ColdHub Cold Storage,300,3791
+Sani Sule,Jos,Tomatoes,"Building Materials Market, Jos, Plateau State",50,0.83,Kano,312,5.20,8,7.5,ColdHub Cold Storage,300,3791
+Wale Mohammed,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Warri,958,15.97,0,3.5,ColdHub Cold Storage,300,3791
+Zainab Zubair,Abakaliki,Yams,"Abakaliki Market, Ebonyi State",50,0.83,Abuja,406,6.77,15,2,ColdHub Cold Storage,300,3791
+Lami Faniyi,Abakaliki,Okra,"Abakaliki Market, Ebonyi State",50,0.83,Lagos,630,10.50,8,7.5,ColdHub Cold Storage,300,3791
+Ike Zubair,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Warri,744,12.40,0,3.5,ColdHub Cold Storage,300,3791
+Yemi Hassan,Lokoja,Okra,"Dei Dei Regional Market, Abuja, FCT",130.92,2.18,Lagos,775,12.92,8,7.5,ColdHub Cold Storage,300,3791
+Gozi Faniyi,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Port Harcourt,1091,18.18,0,3.5,ColdHub Cold Storage,300,3791
+Remi Lawal,Dutse,Peppers,"Yankaba Market, Kano, Kano State",117.87,1.96,Abuja,428.76,7.15,8,5,ColdHub Cold Storage,300,3791
+Yemi Williams,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Port Harcourt,807.03,13.45,0,3.5,ColdHub Cold Storage,300,3791
+Remi Ibeh,Asaba,Okra,"Smart farmers Market Summit junction, Delta State",50,0.83,Ibadan,684.86,11.41,8,7.5,ColdHub Cold Storage,300,3791
+Efe Faniyi,Bauchi City,Tomatoes,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Lagos,1159,19.32,8,7.5,ColdHub Cold Storage,300,3791
+Ola Yahaya,Kaduna City,Yams,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Abuja,195.51,3.26,15,2,ColdHub Cold Storage,300,3791
+Dami Hassan,Kaduna City,Okra,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Enugu,568.12,9.47,8,7.5,ColdHub Cold Storage,300,3791
+Vera Jallo,Ibadan,Okra,"Bodija Market, Ibadan, Oyo State",50,0.83,Lagos,130.82,2.18,8,7.5,ColdHub Cold Storage,300,3791
+Efe Popoola,Abakaliki,Yams,"Abakaliki Market, Ebonyi State",50,0.83,Makurdi,273.12,4.55,15,2,ColdHub Cold Storage,300,3791
+Habib Abara,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Lagos,958.27,15.97,0,3.5,ColdHub Cold Storage,300,3791
+Wale Popoola,Lafia,Tomatoes,"Orange Market, Mararaba, Nasarawa State",50,0.83,Kano,442,7.37,8,7.5,ColdHub Cold Storage,300,3791
+Chi Rimi,Kaduna City,Peppers,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Aba,564.12,9.40,8,5,ColdHub Cold Storage,300,3791
+Dami Garba,Jalingo,Yams,"Building Materials Market, Jos, Plateau State",166.54,2.78,Abuja,374.12,6.24,15,2,ColdHub Cold Storage,300,3791
+Dami Bello,Lokoja,Okra,"Dei Dei Regional Market, Abuja, FCT",130.92,2.18,Ibadan,581,9.68,8,7.5,ColdHub Cold Storage,300,3791
+Chi Danjuma,Sokoto City,Peppers,"Yankaba Market, Kano, Kano State",375.39,6.26,Aba,727.17,12.12,8,5,ColdHub Cold Storage,300,3791
+Remi Hassan,Kaduna City,Peppers,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Abuja,195.51,3.26,8,5,ColdHub Cold Storage,300,3791
+Ola Cole,Lokoja,Yams,"Dei Dei Regional Market, Abuja, FCT",130.92,2.18,Ibadan,581,9.68,15,2,ColdHub Cold Storage,300,3791
+Quin Bello,Enugu City,Okra,"Old Artisan Market, Enugu State",50,0.83,Kano,828,13.80,8,7.5,ColdHub Cold Storage,300,3791
+Lami Nduka,Kaduna City,Peppers,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Lagos,776.51,12.94,8,5,ColdHub Cold Storage,300,3791
+Ola Rimi,Minna,Yams,"Dei Dei Regional Market, Abuja, FCT",177.5,2.96,Abuja,160,2.67,15,2,ColdHub Cold Storage,300,3791
+Lami Abara,Makurdi,Peppers,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Lagos,737.11,12.29,8,5,ColdHub Cold Storage,300,3791
+Habib Lawal,Calabar,Yams,"Abakaliki Market, Ebonyi State",82.95,1.38,Lagos,630,10.50,15,2,ColdHub Cold Storage,300,3791
+Dami Zubair,Kano City,Peppers,"Yankaba Market, Kano, Kano State",50,0.83,Abuja,428.76,7.15,8,5,ColdHub Cold Storage,300,3791
+Ola Hassan,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Port Harcourt,650,10.83,0,3.5,ColdHub Cold Storage,300,3791
+Quin Mohammed,Makurdi,Peppers,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Abuja,50,0.83,8,5,ColdHub Cold Storage,300,3791
+Pius Abara,Bauchi City,Tomatoes,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Jos,132.12,2.20,8,7.5,ColdHub Cold Storage,300,3791
+Vera Mohammed,Sokoto City,Okra,"Yankaba Market, Kano, Kano State",375.39,6.26,Enugu,801.37,13.36,8,7.5,ColdHub Cold Storage,300,3791
+Remi Sule,Kaduna City,Yams,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Makurdi,573.07,9.55,15,2,ColdHub Cold Storage,300,3791
+Remi Eze,Makurdi,Peppers,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Abuja,50,0.83,8,5,ColdHub Cold Storage,300,3791
+Ola Kanu,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Lagos,992.07,16.53,0,3.5,ColdHub Cold Storage,300,3791
+Sani Nduka,Kano City,Peppers,"Yankaba Market, Kano, Kano State",50,0.83,Aba,727.17,12.12,8,5,ColdHub Cold Storage,300,3791
+Musa Quadri,Jalingo,Yams,"Building Materials Market, Jos, Plateau State",166.54,2.78,Makurdi,514.39,8.57,15,2,ColdHub Cold Storage,300,3791
+Quin Sule,Lafia,Okra,"Orange Market, Mararaba, Nasarawa State",50,0.83,Lagos,737.11,12.29,8,7.5,ColdHub Cold Storage,300,3791
+Pius Rimi,Bauchi City,Peppers,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Lagos,1159,19.32,8,5,ColdHub Cold Storage,300,3791
+Zainab Vatsa,Kano City,Peppers,"Yankaba Market, Kano, Kano State",50,0.83,Aba,727.17,12.12,8,5,ColdHub Cold Storage,300,3791
+Sani Jallo,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Lagos,737.11,12.29,0,3.5,ColdHub Cold Storage,300,3791
+Ade Sule,Enugu City,Okra,"Old Artisan Market, Enugu State",50,0.83,Kano,828,13.80,8,7.5,ColdHub Cold Storage,300,3791
+Wale Quadri,Ibadan,Yams,"Bodija Market, Ibadan, Oyo State",50,0.83,Makurdi,604,10.07,15,2,ColdHub Cold Storage,300,3791
+Chi Ojo,Lafia,Okra,"Orange Market, Mararaba, Nasarawa State",50,0.83,Enugu,413,6.88,8,7.5,ColdHub Cold Storage,300,3791
+Ade Lawal,Ibadan,Okra,"Bodija Market, Ibadan, Oyo State",50,0.83,Enugu,533.28,8.89,8,7.5,ColdHub Cold Storage,300,3791
+Musa Lawal,Lafia,Tomatoes,"Orange Market, Mararaba, Nasarawa State",50,0.83,Jos,258,4.30,8,7.5,ColdHub Cold Storage,300,3791
+Dami Sule,Kaduna City,Tomatoes,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Abuja,195.51,3.26,8,7.5,ColdHub Cold Storage,300,3791
+Ola Faniyi,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Warri,573.26,9.55,0,3.5,ColdHub Cold Storage,300,3791
+Titi Sule,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Port Harcourt,756.55,12.61,0,3.5,ColdHub Cold Storage,300,3791
+Habib Jallo,Ibadan,Tomatoes,"Bodija Market, Ibadan, Oyo State",50,0.83,Kano,863.35,14.39,8,7.5,ColdHub Cold Storage,300,3791
+Chi Ojo,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Abuja,195.51,3.26,0,3.5,ColdHub Cold Storage,300,3791
+Bola Danjuma,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Port Harcourt,650,10.83,0,3.5,ColdHub Cold Storage,300,3791
+Lami Kanu,Kaduna City,Tomatoes,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Kano,235.72,3.93,8,7.5,ColdHub Cold Storage,300,3791
+Jide Yahaya,Yola,Yams,"Bypass Market, Yola, Adamawa State",50,0.83,Abuja,790,13.17,15,2,ColdHub Cold Storage,300,3791
+Yemi Ibeh,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Lagos,992.07,16.53,0,3.5,ColdHub Cold Storage,300,3791
+Uche Tanimu,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Onitsha,659.69,10.99,0,3.5,ColdHub Cold Storage,300,3791
+Habib Yahaya,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Warri,597,9.95,0,3.5,ColdHub Cold Storage,300,3791
+Zainab Quadri,Ibadan,Yams,"Bodija Market, Ibadan, Oyo State",50,0.83,Makurdi,604,10.07,15,2,ColdHub Cold Storage,300,3791
+Habib Mohammed,Abakaliki,Yams,"Abakaliki Market, Ebonyi State",50,0.83,Abuja,406,6.77,15,2,ColdHub Cold Storage,300,3791
+Dami Zubair,Jalingo,Yams,"Building Materials Market, Jos, Plateau State",166.54,2.78,Ibadan,519.65,8.66,15,2,ColdHub Cold Storage,300,3791
+Titi Yahaya,Ibadan,Yams,"Bodija Market, Ibadan, Oyo State",50,0.83,Makurdi,604,10.07,15,2,ColdHub Cold Storage,300,3791
+Uche Zubair,Kano City,Okra,"Yankaba Market, Kano, Kano State",50,0.83,Enugu,801.37,13.36,8,7.5,ColdHub Cold Storage,300,3791
+Zainab Faniyi,Kaduna City,Tomatoes,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Jos,279.96,4.67,8,7.5,ColdHub Cold Storage,300,3791
+Vera Mohammed,Sokoto City,Okra,"Yankaba Market, Kano, Kano State",375.39,6.26,Enugu,801.37,13.36,8,7.5,ColdHub Cold Storage,300,3791
+Efe Kanu,Kano City,Okra,"Yankaba Market, Kano, Kano State",50,0.83,Ibadan,865.35,14.42,8,7.5,ColdHub Cold Storage,300,3791
+Lami Mohammed,Makurdi,Peppers,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Abuja,50,0.83,8,5,ColdHub Cold Storage,300,3791
+Gozi Eze,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Lagos,776.51,12.94,0,3.5,ColdHub Cold Storage,300,3791
+Remi Cole,Lokoja,Yams,"Dei Dei Regional Market, Abuja, FCT",130.92,2.18,Lagos,775,12.92,15,2,ColdHub Cold Storage,300,3791
+Kemi Nduka,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Onitsha,54.97,0.92,0,3.5,ColdHub Cold Storage,300,3791
+Titi Eze,Lafia,Tomatoes,"Orange Market, Mararaba, Nasarawa State",50,0.83,Kano,442,7.37,8,7.5,ColdHub Cold Storage,300,3791
+Titi Umar,Ibadan,Yams,"Bodija Market, Ibadan, Oyo State",50,0.83,Ibadan,519.65,8.66,15,2,ColdHub Cold Storage,300,3791
+Kemi Sule,Bauchi City,Tomatoes,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Jos,132.12,2.20,8,7.5,ColdHub Cold Storage,300,3791
+Dami Ibeh,Ibadan,Okra,"Bodija Market, Ibadan, Oyo State",50,0.83,Enugu,533.28,8.89,8,7.5,ColdHub Cold Storage,300,3791
+Dami Danjuma,Kano City,Peppers,"Yankaba Market, Kano, Kano State",50,0.83,Aba,727.17,12.12,8,5,ColdHub Cold Storage,300,3791
+Ike Umar,Enugu City,Okra,"Old Artisan Market, Enugu State",50,0.83,Ibadan,537.92,8.97,8,7.5,ColdHub Cold Storage,300,3791
+Vera Hassan,Kaduna City,Tomatoes,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Lagos,776.51,12.94,8,7.5,ColdHub Cold Storage,300,3791
+Zainab Nduka,Dutse,Tomatoes,"Yankaba Market, Kano, Kano State",117.87,1.96,Kano,50,0.83,8,7.5,ColdHub Cold Storage,300,3791
+Jide Bello,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Port Harcourt,1091,18.18,0,3.5,ColdHub Cold Storage,300,3791
+Zainab Lawal,Oshogbo,Okra,"Oja Tun Tun Market, Ile-Ife, Osun State",50,0.83,Ibadan,165,2.75,8,7.5,ColdHub Cold Storage,300,3791
+Ola Cole,Kaduna City,Peppers,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Aba,344.08,5.73,8,5,ColdHub Cold Storage,300,3791
+Bola Kanu,Jos,Tomatoes,"Building Materials Market, Jos, Plateau State",50,0.83,Lagos,958.27,15.97,8,7.5,ColdHub Cold Storage,300,3791
+Kemi Williams,Jos,Yams,"Building Materials Market, Jos, Plateau State",50,0.83,Abuja,232.62,3.88,15,2,ColdHub Cold Storage,300,3791
+Yemi Quadri,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Lagos,992.07,16.53,0,3.5,ColdHub Cold Storage,300,3791
+Dami Lawal,Asaba,Okra,"Smart farmers Market Summit junction, Delta State",50,0.83,Lagos,829.39,13.82,8,7.5,ColdHub Cold Storage,300,3791
+Wale Nduka,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Warri,395.66,6.59,0,3.5,ColdHub Cold Storage,300,3791
+Zainab Cole,Katsina City,Tomatoes,"Yankaba Market, Kano, Kano State",147.91,2.47,Abuja,428.76,7.15,8,7.5,ColdHub Cold Storage,300,3791
+Ola Abara,Ado Ekiti,Yams,"ShaSha Market, Ado Ekiti, Ekiti State",50,0.83,Lagos,425.25,7.09,15,2,ColdHub Cold Storage,300,3791
+Kemi Ojo,Kaduna City,Okra,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Ibadan,649.79,10.83,8,7.5,ColdHub Cold Storage,300,3791
+Dami Bello,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Lagos,958.27,15.97,0,3.5,ColdHub Cold Storage,300,3791
+Vera Mohammed,Ibadan,Tomatoes,"Bodija Market, Ibadan, Oyo State",50,0.83,Abuja,617.21,10.29,8,7.5,ColdHub Cold Storage,300,3791
+Bola Williams,Calabar,Yams,"Abakaliki Market, Ebonyi State",82.95,1.38,Lagos,630,10.50,15,2,ColdHub Cold Storage,300,3791
+Kemi Danjuma,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Port Harcourt,1091,18.18,0,3.5,ColdHub Cold Storage,300,3791
+Habib Garba,Sokoto City,Okra,"Yankaba Market, Kano, Kano State",375.39,6.26,Ibadan,865.35,14.42,8,7.5,ColdHub Cold Storage,300,3791
+Efe Umar,Makurdi,Yams,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Abuja,50,0.83,15,2,ColdHub Cold Storage,300,3791
+Ade Zubair,Asaba,Okra,"Smart farmers Market Summit junction, Delta State",50,0.83,Lagos,436.4,7.27,8,7.5,ColdHub Cold Storage,300,3791
+Gozi Mohammed,Sokoto City,Tomatoes,"Yankaba Market, Kano, Kano State",375.39,6.26,Kano,50,0.83,8,7.5,ColdHub Cold Storage,300,3791
+Femi Faniyi,Oshogbo,Okra,"Oja Tun Tun Market, Ile-Ife, Osun State",50,0.83,Ibadan,165,2.75,8,7.5,ColdHub Cold Storage,300,3791
+Ade Ojo,Jos,Tomatoes,"Building Materials Market, Jos, Plateau State",50,0.83,Jos,487.56,8.13,8,7.5,ColdHub Cold Storage,300,3791
+Femi Williams,Jos,Peppers,"Building Materials Market, Jos, Plateau State",50,0.83,Lagos,958.27,15.97,8,5,ColdHub Cold Storage,300,3791
+Vera Quadri,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Onitsha,866,14.43,0,3.5,ColdHub Cold Storage,300,3791
+Zainab Cole,Ibadan,Yams,"Bodija Market, Ibadan, Oyo State",50,0.83,Lagos,130.82,2.18,15,2,ColdHub Cold Storage,300,3791
+Bola Rimi,Sokoto City,Peppers,"Yankaba Market, Kano, Kano State",375.39,6.26,Aba,727.17,12.12,8,5,ColdHub Cold Storage,300,3791
+Uche Rimi,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Port Harcourt,756.55,12.61,0,3.5,ColdHub Cold Storage,300,3791
+Sani Eze,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Port Harcourt,807.03,13.45,0,3.5,ColdHub Cold Storage,300,3791
+Jide Mohammed,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Onitsha,494,8.23,0,3.5,ColdHub Cold Storage,300,3791
+Quin Danjuma,Lafia,Yams,"Orange Market, Mararaba, Nasarawa State",50,0.83,Ibadan,684.86,11.41,15,2,ColdHub Cold Storage,300,3791
+Remi Yahaya,Asaba,Okra,"Smart farmers Market Summit junction, Delta State",50,0.83,Enugu,108.97,1.82,8,7.5,ColdHub Cold Storage,300,3791
+Dami Kanu,Lafia,Okra,"Orange Market, Mararaba, Nasarawa State",50,0.83,Lagos,737.11,12.29,8,7.5,ColdHub Cold Storage,300,3791
+Kemi Popoola,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Port Harcourt,756.55,12.61,0,3.5,ColdHub Cold Storage,300,3791
+Vera Ojo,Kaduna City,Okra,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Kano,235.72,3.93,8,7.5,ColdHub Cold Storage,300,3791
+Dami Abara,Calabar,Yams,"Abakaliki Market, Ebonyi State",82.95,1.38,Abuja,406,6.77,15,2,ColdHub Cold Storage,300,3791
+Ngozi Quadri,Lokoja,Okra,"Dei Dei Regional Market, Abuja, FCT",130.92,2.18,Kano,421,7.02,8,7.5,ColdHub Cold Storage,300,3791
+Pius Garba,Calabar,Yams,"Abakaliki Market, Ebonyi State",82.95,1.38,Lagos,630,10.50,15,2,ColdHub Cold Storage,300,3791
+Yemi Mohammed,Jos,Tomatoes,"Building Materials Market, Jos, Plateau State",50,0.83,Jos,330.66,5.51,8,7.5,ColdHub Cold Storage,300,3791
+Ola Rimi,Sokoto City,Peppers,"Yankaba Market, Kano, Kano State",375.39,6.26,Abuja,428.76,7.15,8,5,ColdHub Cold Storage,300,3791
+Wale Ibeh,Kano City,Okra,"Yankaba Market, Kano, Kano State",50,0.83,Enugu,801.37,13.36,8,7.5,ColdHub Cold Storage,300,3791
+Ade Umar,Kaduna City,Yams,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Lagos,776.51,12.94,15,2,ColdHub Cold Storage,300,3791
+Lami Williams,Jos,Peppers,"Building Materials Market, Jos, Plateau State",50,0.83,Lagos,958.27,15.97,8,5,ColdHub Cold Storage,300,3791
+Ngozi Abara,Kaduna City,Peppers,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Aba,776,12.93,8,5,ColdHub Cold Storage,300,3791
+Lami Quadri,Kano City,Peppers,"Yankaba Market, Kano, Kano State",50,0.83,Aba,727.17,12.12,8,5,ColdHub Cold Storage,300,3791
+Dami Popoola,Abakaliki,Yams,"Abakaliki Market, Ebonyi State",50,0.83,Lagos,630,10.50,15,2,ColdHub Cold Storage,300,3791
+Wale Kanu,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Lagos,958.27,15.97,0,3.5,ColdHub Cold Storage,300,3791
+Titi Rimi,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Lagos,958.27,15.97,0,3.5,ColdHub Cold Storage,300,3791
+Remi Yahaya,Asaba,Okra,"Smart farmers Market Summit junction, Delta State",50,0.83,Ibadan,412,6.87,8,7.5,ColdHub Cold Storage,300,3791
+Wale Bello,Kaduna City,Peppers,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Lagos,776.51,12.94,8,5,ColdHub Cold Storage,300,3791
+Uche Ibeh,Dutse,Tomatoes,"Yankaba Market, Kano, Kano State",117.87,1.96,Jos,279.86,4.66,8,7.5,ColdHub Cold Storage,300,3791
+Vera Jallo,Katsina City,Tomatoes,"Yankaba Market, Kano, Kano State",147.91,2.47,Abuja,428.76,7.15,8,7.5,ColdHub Cold Storage,300,3791
+Femi Garba,Asaba,Okra,"Smart farmers Market Summit junction, Delta State",50,0.83,Kano,387.52,6.46,8,7.5,ColdHub Cold Storage,300,3791
+Kemi Rimi,Awka,Okra,"Old Artisan Market, Enugu State",54.97,0.92,Ibadan,537.92,8.97,8,7.5,ColdHub Cold Storage,300,3791
+Chi Bello,Jos,Yams,"Building Materials Market, Jos, Plateau State",50,0.83,Lagos,958.27,15.97,15,2,ColdHub Cold Storage,300,3791
+Zainab Jallo,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Port Harcourt,650,10.83,0,3.5,ColdHub Cold Storage,300,3791
+Gozi Ojo,Lafia,Okra,"Orange Market, Mararaba, Nasarawa State",50,0.83,Lagos,737.11,12.29,8,7.5,ColdHub Cold Storage,300,3791
+Kemi Vatsa,Lokoja,Okra,"Dei Dei Regional Market, Abuja, FCT",130.92,2.18,Enugu,438,7.30,8,7.5,ColdHub Cold Storage,300,3791
+Jide Williams,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Port Harcourt,650,10.83,0,3.5,ColdHub Cold Storage,300,3791
+Remi Sule,Kaduna City,Tomatoes,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Jos,279.96,4.67,8,7.5,ColdHub Cold Storage,300,3791
+Titi Danjuma,Sokoto City,Okra,"Yankaba Market, Kano, Kano State",375.39,6.26,Lagos,992.07,16.53,8,7.5,ColdHub Cold Storage,300,3791
+Chi Umar,Enugu City,Okra,"Old Artisan Market, Enugu State",50,0.83,Kano,828,13.80,8,7.5,ColdHub Cold Storage,300,3791
+Femi Ibeh,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Onitsha,492.34,8.21,0,3.5,ColdHub Cold Storage,300,3791
+Titi Popoola,Oshogbo,Okra,"Oja Tun Tun Market, Ile-Ife, Osun State",50,0.83,Kano,727.17,12.12,8,7.5,ColdHub Cold Storage,300,3791
+Habib Yahaya,Bauchi City,Peppers,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Abuja,395,6.58,8,5,ColdHub Cold Storage,300,3791
+Ngozi Mohammed,Kaduna City,Okra,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Kano,235.72,3.93,8,7.5,ColdHub Cold Storage,300,3791
+Yemi Eze,Kaduna City,Okra,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Enugu,568.12,9.47,8,7.5,ColdHub Cold Storage,300,3791
+Efe Quadri,Kaduna City,Okra,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Ibadan,649.79,10.83,8,7.5,ColdHub Cold Storage,300,3791
+Efe Abara,Jalingo,Tomatoes,"Building Materials Market, Jos, Plateau State",166.54,2.78,Jos,657.3,10.96,8,7.5,ColdHub Cold Storage,300,3791
+Ike Lawal,Lokoja,Okra,"Dei Dei Regional Market, Abuja, FCT",130.92,2.18,Enugu,438,7.30,8,7.5,ColdHub Cold Storage,300,3791
+Bola Yahaya,Katsina City,Tomatoes,"Yankaba Market, Kano, Kano State",147.91,2.47,Abuja,428.76,7.15,8,7.5,ColdHub Cold Storage,300,3791
+Vera Cole,Minna,Yams,"Dei Dei Regional Market, Abuja, FCT",177.5,2.96,Lagos,623,10.38,15,2,ColdHub Cold Storage,300,3791
+Habib Bello,Enugu City,Okra,"Old Artisan Market, Enugu State",50,0.83,Enugu,50,0.83,8,7.5,ColdHub Cold Storage,300,3791
+Efe Sule,Makurdi,Okra,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Lagos,737.11,12.29,8,7.5,ColdHub Cold Storage,300,3791
+Efe Mohammed,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Warri,597,9.95,0,3.5,ColdHub Cold Storage,300,3791
+Habib Danjuma,Gombe City,Tomatoes,"Muda Lawal Market, Bauchi, Bauchi State",145.61,2.43,Abuja,395,6.58,8,7.5,ColdHub Cold Storage,300,3791
+Quin Jallo,Minna,Yams,"Dei Dei Regional Market, Abuja, FCT",177.5,2.96,Ibadan,496,8.27,15,2,ColdHub Cold Storage,300,3791
+Habib Hassan,Katsina City,Tomatoes,"Yankaba Market, Kano, Kano State",147.91,2.47,Jos,279.86,4.66,8,7.5,ColdHub Cold Storage,300,3791
+Kemi Williams,Abakaliki,Okra,"Abakaliki Market, Ebonyi State",50,0.83,Ibadan,684.86,11.41,8,7.5,ColdHub Cold Storage,300,3791
+Pius Yahaya,Jos,Yams,"Building Materials Market, Jos, Plateau State",50,0.83,Ibadan,831.54,13.86,15,2,ColdHub Cold Storage,300,3791
+Musa Abara,Kaduna City,Tomatoes,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Lagos,776.51,12.94,8,7.5,ColdHub Cold Storage,300,3791
+Sani Hassan,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Abuja,195.51,3.26,0,3.5,ColdHub Cold Storage,300,3791
+Efe Garba,Oshogbo,Okra,"Oja Tun Tun Market, Ile-Ife, Osun State",50,0.83,Lagos,292,4.87,8,7.5,ColdHub Cold Storage,300,3791
+Pius Vatsa,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Port Harcourt,807.03,13.45,0,3.5,ColdHub Cold Storage,300,3791
+Ike Garba,Awka,Okra,"Old Artisan Market, Enugu State",54.97,0.92,Lagos,588.82,9.81,8,7.5,ColdHub Cold Storage,300,3791
+Kemi Hassan,Makurdi,Tomatoes,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Lagos,737.11,12.29,8,7.5,ColdHub Cold Storage,300,3791
+Gozi Umar,Lafia,Yams,"Orange Market, Mararaba, Nasarawa State",50,0.83,Ibadan,684.86,11.41,15,2,ColdHub Cold Storage,300,3791
+Efe Lawal,Lafia,Tomatoes,"Orange Market, Mararaba, Nasarawa State",50,0.83,Lagos,737.11,12.29,8,7.5,ColdHub Cold Storage,300,3791
+Chi Zubair,Lafia,Okra,"Orange Market, Mararaba, Nasarawa State",50,0.83,Lagos,737.11,12.29,8,7.5,ColdHub Cold Storage,300,3791
+Uche Yahaya,Lokoja,Okra,"Dei Dei Regional Market, Abuja, FCT",130.92,2.18,Ibadan,581,9.68,8,7.5,ColdHub Cold Storage,300,3791
+Lami Garba,Sokoto City,Tomatoes,"Yankaba Market, Kano, Kano State",375.39,6.26,Lagos,992.07,16.53,8,7.5,ColdHub Cold Storage,300,3791
+Musa Faniyi,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Abuja,232.62,3.88,0,3.5,ColdHub Cold Storage,300,3791
+Quin Sule,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Port Harcourt,1091,18.18,0,3.5,ColdHub Cold Storage,300,3791
+Zainab Garba,Ado Ekiti,Yams,"ShaSha Market, Ado Ekiti, Ekiti State",50,0.83,Lagos,425.25,7.09,15,2,ColdHub Cold Storage,300,3791
+Sani Kanu,Asaba,Okra,"Smart farmers Market Summit junction, Delta State",50,0.83,Enugu,619.74,10.33,8,7.5,ColdHub Cold Storage,300,3791
+Kemi Cole,Ibadan,Tomatoes,"Bodija Market, Ibadan, Oyo State",50,0.83,Lagos,130.82,2.18,8,7.5,ColdHub Cold Storage,300,3791
+Jide Garba,Kaduna City,Tomatoes,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Jos,279.96,4.67,8,7.5,ColdHub Cold Storage,300,3791
+Ola Hassan,Makurdi,Peppers,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Aba,593,9.88,8,5,ColdHub Cold Storage,300,3791
+Pius Lawal,Ibadan,Peppers,"Bodija Market, Ibadan, Oyo State",50,0.83,Abuja,617.21,10.29,8,5,ColdHub Cold Storage,300,3791
+Pius Williams,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Warri,395.66,6.59,0,3.5,ColdHub Cold Storage,300,3791
+Chi Mohammed,Lokoja,Yams,"Dei Dei Regional Market, Abuja, FCT",130.92,2.18,Lagos,775,12.92,15,2,ColdHub Cold Storage,300,3791
+Musa Abara,Gombe City,Tomatoes,"Muda Lawal Market, Bauchi, Bauchi State",145.61,2.43,Jos,132.12,2.20,8,7.5,ColdHub Cold Storage,300,3791
+Yemi Quadri,Asaba,Okra,"Smart farmers Market Summit junction, Delta State",50,0.83,Kano,387.52,6.46,8,7.5,ColdHub Cold Storage,300,3791
+Femi Mohammed,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Onitsha,494,8.23,0,3.5,ColdHub Cold Storage,300,3791
+Remi Danjuma,Kano City,Okra,"Yankaba Market, Kano, Kano State",50,0.83,Enugu,801.37,13.36,8,7.5,ColdHub Cold Storage,300,3791
+Quin Jallo,Oshogbo,Okra,"Oja Tun Tun Market, Ile-Ife, Osun State",50,0.83,Ibadan,165,2.75,8,7.5,ColdHub Cold Storage,300,3791
+Ngozi Popoola,Enugu City,Okra,"Old Artisan Market, Enugu State",50,0.83,Enugu,50,0.83,8,7.5,ColdHub Cold Storage,300,3791
+Gozi Eze,Lafia,Yams,"Orange Market, Mararaba, Nasarawa State",50,0.83,Ibadan,684.86,11.41,15,2,ColdHub Cold Storage,300,3791
+Sani Danjuma,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Lagos,958.27,15.97,0,3.5,ColdHub Cold Storage,300,3791
+Pius Popoola,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Onitsha,54.97,0.92,0,3.5,ColdHub Cold Storage,300,3791
+Uche Popoola,Ibadan,Okra,"Bodija Market, Ibadan, Oyo State",50,0.83,Lagos,130.82,2.18,8,7.5,ColdHub Cold Storage,300,3791
+Quin Abara,Jos,Peppers,"Building Materials Market, Jos, Plateau State",50,0.83,Lagos,958.27,15.97,8,5,ColdHub Cold Storage,300,3791
+Pius Zubair,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Port Harcourt,1091,18.18,0,3.5,ColdHub Cold Storage,300,3791
+Habib Lawal,Oshogbo,Okra,"Oja Tun Tun Market, Ile-Ife, Osun State",50,0.83,Lagos,292,4.87,8,7.5,ColdHub Cold Storage,300,3791
+Wale Ibeh,Jalingo,Tomatoes,"Building Materials Market, Jos, Plateau State",166.54,2.78,Lagos,588.82,9.81,8,7.5,ColdHub Cold Storage,300,3791
+Ngozi Ibeh,Lokoja,Okra,"Dei Dei Regional Market, Abuja, FCT",130.92,2.18,Ibadan,581,9.68,8,7.5,ColdHub Cold Storage,300,3791
+Quin Eze,Lafia,Okra,"Orange Market, Mararaba, Nasarawa State",50,0.83,Ibadan,684.86,11.41,8,7.5,ColdHub Cold Storage,300,3791
+Pius Abara,Makurdi,Yams,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Lagos,737.11,12.29,15,2,ColdHub Cold Storage,300,3791
+Quin Umar,Sokoto City,Peppers,"Yankaba Market, Kano, Kano State",375.39,6.26,Aba,727.17,12.12,8,5,ColdHub Cold Storage,300,3791
+Habib Quadri,Kaduna City,Okra,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Lagos,776.51,12.94,8,7.5,ColdHub Cold Storage,300,3791
+Kemi Bello,Dutse,Peppers,"Yankaba Market, Kano, Kano State",117.87,1.96,Abuja,428.76,7.15,8,5,ColdHub Cold Storage,300,3791
+Musa Rimi,Dutse,Peppers,"Yankaba Market, Kano, Kano State",117.87,1.96,Abuja,428.76,7.15,8,5,ColdHub Cold Storage,300,3791
+Sani Rimi,Kaduna City,Tomatoes,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Kano,235.72,3.93,8,7.5,ColdHub Cold Storage,300,3791
+Quin Abara,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Warri,744,12.40,0,3.5,ColdHub Cold Storage,300,3791
+Lami Abara,Makurdi,Peppers,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Aba,593,9.88,8,5,ColdHub Cold Storage,300,3791
+Pius Kanu,Gombe City,Tomatoes,"Muda Lawal Market, Bauchi, Bauchi State",145.61,2.43,Abuja,395,6.58,8,7.5,ColdHub Cold Storage,300,3791
+Remi Umar,Kaduna City,Yams,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Ibadan,649.79,10.83,15,2,ColdHub Cold Storage,300,3791
+Gozi Yahaya,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Port Harcourt,756.55,12.61,0,3.5,ColdHub Cold Storage,300,3791
+Pius Cole,Bauchi City,Tomatoes,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Kano,287,4.78,8,7.5,ColdHub Cold Storage,300,3791
+Bola Jallo,Awka,Okra,"Old Artisan Market, Enugu State",54.97,0.92,Kano,828,13.80,8,7.5,ColdHub Cold Storage,300,3791
+Ola Nduka,Dutse,Peppers,"Yankaba Market, Kano, Kano State",117.87,1.96,Aba,727.17,12.12,8,5,ColdHub Cold Storage,300,3791
+Ola Ojo,Sokoto City,Peppers,"Yankaba Market, Kano, Kano State",375.39,6.26,Aba,727.17,12.12,8,5,ColdHub Cold Storage,300,3791
+Quin Zubair,Abakaliki,Okra,"Abakaliki Market, Ebonyi State",50,0.83,Ibadan,684.86,11.41,8,7.5,ColdHub Cold Storage,300,3791
+Habib Danjuma,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Lagos,958.27,15.97,0,3.5,ColdHub Cold Storage,300,3791
+Jide Lawal,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Onitsha,494,8.23,0,3.5,ColdHub Cold Storage,300,3791
+Lami Abara,Dutse,Tomatoes,"Yankaba Market, Kano, Kano State",117.87,1.96,Jos,279.86,4.66,8,7.5,ColdHub Cold Storage,300,3791
+Ike Lawal,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Lagos,958.27,15.97,0,3.5,ColdHub Cold Storage,300,3791
+Chi Popoola,Ibadan,Okra,"Bodija Market, Ibadan, Oyo State",50,0.83,Enugu,533.28,8.89,8,7.5,ColdHub Cold Storage,300,3791
+Lami Hassan,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Onitsha,494,8.23,0,3.5,ColdHub Cold Storage,300,3791
+Remi Rimi,Jos,Yams,"Building Materials Market, Jos, Plateau State",50,0.83,Abuja,232.62,3.88,15,2,ColdHub Cold Storage,300,3791
+Kemi Sule,Awka,Okra,"Old Artisan Market, Enugu State",54.97,0.92,Ibadan,537.92,8.97,8,7.5,ColdHub Cold Storage,300,3791
+Chi Yahaya,Ibadan,Okra,"Bodija Market, Ibadan, Oyo State",50,0.83,Ibadan,684.86,11.41,8,7.5,ColdHub Cold Storage,300,3791
+Dami Danjuma,Ado Ekiti,Yams,"ShaSha Market, Ado Ekiti, Ekiti State",50,0.83,Abuja,400.88,6.68,15,2,ColdHub Cold Storage,300,3791
+Dami Mohammed,Calabar,Yams,"Abakaliki Market, Ebonyi State",82.95,1.38,Lagos,630,10.50,15,2,ColdHub Cold Storage,300,3791
+Wale Lawal,Lafia,Okra,"Orange Market, Mararaba, Nasarawa State",50,0.83,Enugu,413,6.88,8,7.5,ColdHub Cold Storage,300,3791
+Wale Cole,Kano City,Tomatoes,"Yankaba Market, Kano, Kano State",50,0.83,Kano,50,0.83,8,7.5,ColdHub Cold Storage,300,3791
+Ike Zubair,Ibadan,Peppers,"Bodija Market, Ibadan, Oyo State",50,0.83,Aba,727.17,12.12,8,5,ColdHub Cold Storage,300,3791
+Ike Tanimu,Makurdi,Tomatoes,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Kano,442,7.37,8,7.5,ColdHub Cold Storage,300,3791
+Gozi Ibeh,Ibadan,Tomatoes,"Bodija Market, Ibadan, Oyo State",50,0.83,Lagos,130.82,2.18,8,7.5,ColdHub Cold Storage,300,3791
+Bola Lawal,Bauchi City,Tomatoes,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Jos,132.12,2.20,8,7.5,ColdHub Cold Storage,300,3791
+Dami Eze,Jalingo,Tomatoes,"Building Materials Market, Jos, Plateau State",166.54,2.78,Jos,330.66,5.51,8,7.5,ColdHub Cold Storage,300,3791
+Lami Mohammed,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Warri,945.03,15.75,0,3.5,ColdHub Cold Storage,300,3791
+Bola Bello,Lokoja,Yams,"Dei Dei Regional Market, Abuja, FCT",130.92,2.18,Ibadan,581,9.68,15,2,ColdHub Cold Storage,300,3791
+Lami Umar,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Warri,531.11,8.85,0,3.5,ColdHub Cold Storage,300,3791
+Wale Danjuma,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Warri,597,9.95,0,3.5,ColdHub Cold Storage,300,3791
+Wale Cole,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Lagos,776.51,12.94,0,3.5,ColdHub Cold Storage,300,3791
+Dami Sule,Kaduna City,Peppers,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Aba,727.17,12.12,8,5,ColdHub Cold Storage,300,3791
+Vera Kanu,Bauchi City,Peppers,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Aba,882,14.70,8,5,ColdHub Cold Storage,300,3791
+Musa Tanimu,Ibadan,Tomatoes,"Bodija Market, Ibadan, Oyo State",50,0.83,Abuja,617.21,10.29,8,7.5,ColdHub Cold Storage,300,3791
+Pius Yahaya,Makurdi,Peppers,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Abuja,50,0.83,8,5,ColdHub Cold Storage,300,3791
+Gozi Cole,Asaba,Okra,"Smart farmers Market Summit junction, Delta State",50,0.83,Ibadan,657.3,10.96,8,7.5,ColdHub Cold Storage,300,3791
+Sani Ojo,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Onitsha,423.42,7.06,0,3.5,ColdHub Cold Storage,300,3791
+Uche Abara,Ibadan,Yams,"Bodija Market, Ibadan, Oyo State",50,0.83,Lagos,130.82,2.18,15,2,ColdHub Cold Storage,300,3791
+Jide Eze,Ibadan,Peppers,"Bodija Market, Ibadan, Oyo State",50,0.83,Lagos,130.82,2.18,8,5,ColdHub Cold Storage,300,3791
+Femi Williams,Makurdi,Peppers,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Aba,593,9.88,8,5,ColdHub Cold Storage,300,3791
+Gozi Ibeh,Ibadan,Yams,"Bodija Market, Ibadan, Oyo State",50,0.83,Ibadan,684.86,11.41,15,2,ColdHub Cold Storage,300,3791
+Gozi Tanimu,Oshogbo,Okra,"Oja Tun Tun Market, Ile-Ife, Osun State",50,0.83,Lagos,292,4.87,8,7.5,ColdHub Cold Storage,300,3791
+Chi Kanu,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Onitsha,866,14.43,0,3.5,ColdHub Cold Storage,300,3791
+Dami Sule,Ado Ekiti,Yams,"ShaSha Market, Ado Ekiti, Ekiti State",50,0.83,Makurdi,478,7.97,15,2,ColdHub Cold Storage,300,3791
+Ike Garba,Awka,Okra,"Old Artisan Market, Enugu State",54.97,0.92,Lagos,588.82,9.81,8,7.5,ColdHub Cold Storage,300,3791
+Jide Danjuma,Calabar,Yams,"Abakaliki Market, Ebonyi State",82.95,1.38,Abuja,406,6.77,15,2,ColdHub Cold Storage,300,3791
+Ike Hassan,Lafia,Yams,"Orange Market, Mararaba, Nasarawa State",50,0.83,Makurdi,267,4.45,15,2,ColdHub Cold Storage,300,3791
+Dami Rimi,Ibadan,Okra,"Bodija Market, Ibadan, Oyo State",50,0.83,Lagos,130.82,2.18,8,7.5,ColdHub Cold Storage,300,3791
+Musa Jallo,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Warri,395.66,6.59,0,3.5,ColdHub Cold Storage,300,3791
+Ngozi Abara,Asaba,Okra,"Smart farmers Market Summit junction, Delta State",50,0.83,Ibadan,519.65,8.66,8,7.5,ColdHub Cold Storage,300,3791
+Ade Vatsa,Abakaliki,Yams,"Abakaliki Market, Ebonyi State",50,0.83,Makurdi,273.12,4.55,15,2,ColdHub Cold Storage,300,3791
+Sani Rimi,Dutse,Peppers,"Yankaba Market, Kano, Kano State",117.87,1.96,Aba,727.17,12.12,8,5,ColdHub Cold Storage,300,3791
+Ngozi Umar,Ibadan,Okra,"Bodija Market, Ibadan, Oyo State",50,0.83,Lagos,130.82,2.18,8,7.5,ColdHub Cold Storage,300,3791
+Gozi Tanimu,Dutse,Peppers,"Yankaba Market, Kano, Kano State",117.87,1.96,Lagos,992.07,16.53,8,5,ColdHub Cold Storage,300,3791
+Quin Sule,Makurdi,Peppers,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Aba,593,9.88,8,5,ColdHub Cold Storage,300,3791
+Bola Jallo,Lafia,Tomatoes,"Orange Market, Mararaba, Nasarawa State",50,0.83,Jos,258,4.30,8,7.5,ColdHub Cold Storage,300,3791
+Musa Williams,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Warri,531.11,8.85,0,3.5,ColdHub Cold Storage,300,3791
+Gozi Nduka,Jos,Tomatoes,"Building Materials Market, Jos, Plateau State",50,0.83,Jos,330.66,5.51,8,7.5,ColdHub Cold Storage,300,3791
+Wale Lawal,Awka,Okra,"Old Artisan Market, Enugu State",54.97,0.92,Lagos,588.82,9.81,8,7.5,ColdHub Cold Storage,300,3791
+Kemi Ojo,Abakaliki,Yams,"Abakaliki Market, Ebonyi State",50,0.83,Makurdi,273.12,4.55,15,2,ColdHub Cold Storage,300,3791
+Ike Tanimu,Enugu City,Okra,"Old Artisan Market, Enugu State",50,0.83,Enugu,50,0.83,8,7.5,ColdHub Cold Storage,300,3791
+Kemi Sule,Jos,Peppers,"Building Materials Market, Jos, Plateau State",50,0.83,Abuja,232.62,3.88,8,5,ColdHub Cold Storage,300,3791
+Titi Umar,Kano City,Peppers,"Yankaba Market, Kano, Kano State",50,0.83,Lagos,992.07,16.53,8,5,ColdHub Cold Storage,300,3791
+Yemi Hassan,Jos,Yams,"Building Materials Market, Jos, Plateau State",50,0.83,Abuja,232.62,3.88,15,2,ColdHub Cold Storage,300,3791
+Dami Yahaya,Kaduna City,Yams,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Ibadan,649.79,10.83,15,2,ColdHub Cold Storage,300,3791
+Ngozi Danjuma,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Warri,395.66,6.59,0,3.5,ColdHub Cold Storage,300,3791
+Yemi Eze,Sokoto City,Peppers,"Yankaba Market, Kano, Kano State",375.39,6.26,Abuja,428.76,7.15,8,5,ColdHub Cold Storage,300,3791
+Sani Rimi,Kaduna City,Peppers,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Aba,727.17,12.12,8,5,ColdHub Cold Storage,300,3791
+Efe Kanu,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Onitsha,494,8.23,0,3.5,ColdHub Cold Storage,300,3791
+Gozi Ibeh,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Port Harcourt,650,10.83,0,3.5,ColdHub Cold Storage,300,3791
+Chi Nduka,Yola,Yams,"Bypass Market, Yola, Adamawa State",50,0.83,Lagos,1331,22.18,15,2,ColdHub Cold Storage,300,3791
+Titi Ojo,Jos,Yams,"Building Materials Market, Jos, Plateau State",50,0.83,Ibadan,831.54,13.86,15,2,ColdHub Cold Storage,300,3791
+Ade Yahaya,Jalingo,Tomatoes,"Building Materials Market, Jos, Plateau State",166.54,2.78,Abuja,374.12,6.24,8,7.5,ColdHub Cold Storage,300,3791
+Ngozi Zubair,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Onitsha,288.57,4.81,0,3.5,ColdHub Cold Storage,300,3791
+Jide Hassan,Kano City,Okra,"Yankaba Market, Kano, Kano State",50,0.83,Ibadan,865.35,14.42,8,7.5,ColdHub Cold Storage,300,3791
+Titi Mohammed,Sokoto City,Peppers,"Yankaba Market, Kano, Kano State",375.39,6.26,Aba,727.17,12.12,8,5,ColdHub Cold Storage,300,3791
+Wale Vatsa,Ibadan,Tomatoes,"Bodija Market, Ibadan, Oyo State",50,0.83,Abuja,617.21,10.29,8,7.5,ColdHub Cold Storage,300,3791
+Habib Popoola,Kaduna City,Tomatoes,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Lagos,776.51,12.94,8,7.5,ColdHub Cold Storage,300,3791
+Ola Nduka,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Warri,597,9.95,0,3.5,ColdHub Cold Storage,300,3791
+Kemi Tanimu,Jos,Peppers,"Building Materials Market, Jos, Plateau State",50,0.83,Abuja,232.62,3.88,8,5,ColdHub Cold Storage,300,3791
+Quin Eze,Kano City,Tomatoes,"Yankaba Market, Kano, Kano State",50,0.83,Jos,279.86,4.66,8,7.5,ColdHub Cold Storage,300,3791
+Remi Tanimu,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Lagos,737.11,12.29,0,3.5,ColdHub Cold Storage,300,3791
+Ngozi Faniyi,Lokoja,Yams,"Dei Dei Regional Market, Abuja, FCT",130.92,2.18,Ibadan,581,9.68,15,2,ColdHub Cold Storage,300,3791
+Efe Nduka,Kaduna City,Okra,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Ibadan,649.79,10.83,8,7.5,ColdHub Cold Storage,300,3791
+Zainab Rimi,Makurdi,Okra,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Kano,442,7.37,8,7.5,ColdHub Cold Storage,300,3791
+Ike Cole,Oshogbo,Okra,"Oja Tun Tun Market, Ile-Ife, Osun State",50,0.83,Lagos,292,4.87,8,7.5,ColdHub Cold Storage,300,3791
+Gozi Rimi,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Warri,395.66,6.59,0,3.5,ColdHub Cold Storage,300,3791
+Jide Nduka,Oshogbo,Okra,"Oja Tun Tun Market, Ile-Ife, Osun State",50,0.83,Lagos,292,4.87,8,7.5,ColdHub Cold Storage,300,3791
+Femi Nduka,Jalingo,Tomatoes,"Building Materials Market, Jos, Plateau State",166.54,2.78,Lagos,454.06,7.57,8,7.5,ColdHub Cold Storage,300,3791
+Chi Garba,Sokoto City,Peppers,"Yankaba Market, Kano, Kano State",375.39,6.26,Aba,727.17,12.12,8,5,ColdHub Cold Storage,300,3791
+Titi Quadri,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Lagos,992.07,16.53,0,3.5,ColdHub Cold Storage,300,3791
+Ade Faniyi,Lokoja,Yams,"Dei Dei Regional Market, Abuja, FCT",130.92,2.18,Lagos,775,12.92,15,2,ColdHub Cold Storage,300,3791
+Efe Ojo,Dutse,Tomatoes,"Yankaba Market, Kano, Kano State",117.87,1.96,Jos,279.86,4.66,8,7.5,ColdHub Cold Storage,300,3791
+Wale Zubair,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Onitsha,659.69,10.99,0,3.5,ColdHub Cold Storage,300,3791
+Kemi Quadri,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Onitsha,866,14.43,0,3.5,ColdHub Cold Storage,300,3791
+Titi Ibeh,Yola,Yams,"Bypass Market, Yola, Adamawa State",50,0.83,Ibadan,1304,21.73,15,2,ColdHub Cold Storage,300,3791
+Habib Nduka,Ibadan,Tomatoes,"Bodija Market, Ibadan, Oyo State",50,0.83,Lagos,130.82,2.18,8,7.5,ColdHub Cold Storage,300,3791
+Ike Williams,Lafia,Tomatoes,"Orange Market, Mararaba, Nasarawa State",50,0.83,Kano,442,7.37,8,7.5,ColdHub Cold Storage,300,3791
+Wale Hassan,Enugu City,Okra,"Old Artisan Market, Enugu State",50,0.83,Kano,828,13.80,8,7.5,ColdHub Cold Storage,300,3791
+Ike Zubair,Sokoto City,Okra,"Yankaba Market, Kano, Kano State",375.39,6.26,Lagos,992.07,16.53,8,7.5,ColdHub Cold Storage,300,3791
+Gozi Williams,Kaduna City,Yams,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Abuja,195.51,3.26,15,2,ColdHub Cold Storage,300,3791
+Zainab Cole,Kaduna City,Yams,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Makurdi,514.39,8.57,15,2,ColdHub Cold Storage,300,3791
+Lami Quadri,Lokoja,Okra,"Dei Dei Regional Market, Abuja, FCT",130.92,2.18,Kano,421,7.02,8,7.5,ColdHub Cold Storage,300,3791
+Bola Garba,Jos,Peppers,"Building Materials Market, Jos, Plateau State",50,0.83,Abuja,232.62,3.88,8,5,ColdHub Cold Storage,300,3791
+Titi Lawal,Bauchi City,Peppers,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Abuja,395,6.58,8,5,ColdHub Cold Storage,300,3791
+Chi Umar,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Port Harcourt,756.55,12.61,0,3.5,ColdHub Cold Storage,300,3791
+Jide Danjuma,Ado Ekiti,Yams,"ShaSha Market, Ado Ekiti, Ekiti State",50,0.83,Ibadan,189,3.15,15,2,ColdHub Cold Storage,300,3791
+Efe Sule,Ado Ekiti,Yams,"ShaSha Market, Ado Ekiti, Ekiti State",50,0.83,Abuja,400.88,6.68,15,2,ColdHub Cold Storage,300,3791
+Lami Umar,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Lagos,776.51,12.94,0,3.5,ColdHub Cold Storage,300,3791
+Dami Yahaya,Kano City,Tomatoes,"Yankaba Market, Kano, Kano State",50,0.83,Jos,279.86,4.66,8,7.5,ColdHub Cold Storage,300,3791
+Sani Mohammed,Asaba,Okra,"Smart farmers Market Summit junction, Delta State",50,0.83,Enugu,371.01,6.18,8,7.5,ColdHub Cold Storage,300,3791
+Ade Kanu,Makurdi,Peppers,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Abuja,50,0.83,8,5,ColdHub Cold Storage,300,3791
+Yemi Rimi,Dutse,Tomatoes,"Yankaba Market, Kano, Kano State",117.87,1.96,Abuja,428.76,7.15,8,7.5,ColdHub Cold Storage,300,3791
+Efe Quadri,Makurdi,Peppers,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Lagos,737.11,12.29,8,5,ColdHub Cold Storage,300,3791
+Efe Nduka,Abakaliki,Okra,"Abakaliki Market, Ebonyi State",50,0.83,Ibadan,684.86,11.41,8,7.5,ColdHub Cold Storage,300,3791
+Femi Mohammed,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Port Harcourt,650,10.83,0,3.5,ColdHub Cold Storage,300,3791
+Jide Lawal,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Lagos,958.27,15.97,0,3.5,ColdHub Cold Storage,300,3791
+Sani Lawal,Sokoto City,Peppers,"Yankaba Market, Kano, Kano State",375.39,6.26,Abuja,428.76,7.15,8,5,ColdHub Cold Storage,300,3791
+Vera Lawal,Bauchi City,Peppers,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Aba,882,14.70,8,5,ColdHub Cold Storage,300,3791
+Titi Lawal,Abakaliki,Okra,"Abakaliki Market, Ebonyi State",50,0.83,Lagos,630,10.50,8,7.5,ColdHub Cold Storage,300,3791
+Musa Tanimu,Enugu City,Okra,"Old Artisan Market, Enugu State",50,0.83,Lagos,588.82,9.81,8,7.5,ColdHub Cold Storage,300,3791
+Remi Zubair,Kaduna City,Yams,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Ibadan,649.79,10.83,15,2,ColdHub Cold Storage,300,3791
+Gozi Ojo,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Lagos,776.51,12.94,0,3.5,ColdHub Cold Storage,300,3791
+Lami Popoola,Jalingo,Yams,"Building Materials Market, Jos, Plateau State",166.54,2.78,Abuja,132.24,2.20,15,2,ColdHub Cold Storage,300,3791
+Sani Quadri,Jos,Yams,"Building Materials Market, Jos, Plateau State",50,0.83,Abuja,232.62,3.88,15,2,ColdHub Cold Storage,300,3791
+Sani Sule,Katsina City,Tomatoes,"Yankaba Market, Kano, Kano State",147.91,2.47,Abuja,428.76,7.15,8,7.5,ColdHub Cold Storage,300,3791
+Ike Jallo,Sokoto City,Tomatoes,"Yankaba Market, Kano, Kano State",375.39,6.26,Kano,50,0.83,8,7.5,ColdHub Cold Storage,300,3791
+Habib Ibeh,Yola,Yams,"Bypass Market, Yola, Adamawa State",50,0.83,Lagos,1331,22.18,15,2,ColdHub Cold Storage,300,3791
+Vera Ojo,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Lagos,737.11,12.29,0,3.5,ColdHub Cold Storage,300,3791
+Sani Rimi,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Onitsha,866,14.43,0,3.5,ColdHub Cold Storage,300,3791
+Kemi Quadri,Bauchi City,Peppers,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Aba,882,14.70,8,5,ColdHub Cold Storage,300,3791
+Femi Rimi,Jos,Yams,"Building Materials Market, Jos, Plateau State",50,0.83,Lagos,958.27,15.97,15,2,ColdHub Cold Storage,300,3791
+Ade Cole,Lafia,Yams,"Orange Market, Mararaba, Nasarawa State",50,0.83,Abuja,50,0.83,15,2,ColdHub Cold Storage,300,3791
+Wale Williams,Lokoja,Yams,"Dei Dei Regional Market, Abuja, FCT",130.92,2.18,Lagos,775,12.92,15,2,ColdHub Cold Storage,300,3791
+Yemi Eze,Bauchi City,Tomatoes,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Lagos,1159,19.32,8,7.5,ColdHub Cold Storage,300,3791
+Gozi Tanimu,Jos,Tomatoes,"Building Materials Market, Jos, Plateau State",50,0.83,Abuja,232.62,3.88,8,7.5,ColdHub Cold Storage,300,3791
+Kemi Vatsa,Kaduna City,Peppers,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Abuja,195.51,3.26,8,5,ColdHub Cold Storage,300,3791
+Femi Kanu,Sokoto City,Tomatoes,"Yankaba Market, Kano, Kano State",375.39,6.26,Kano,50,0.83,8,7.5,ColdHub Cold Storage,300,3791
+Ike Tanimu,Kano City,Tomatoes,"Yankaba Market, Kano, Kano State",50,0.83,Abuja,428.76,7.15,8,7.5,ColdHub Cold Storage,300,3791
+Quin Jallo,Ibadan,Okra,"Bodija Market, Ibadan, Oyo State",50,0.83,Lagos,130.82,2.18,8,7.5,ColdHub Cold Storage,300,3791
+Pius Vatsa,Awka,Okra,"Old Artisan Market, Enugu State",54.97,0.92,Kano,828,13.80,8,7.5,ColdHub Cold Storage,300,3791
+Dami Lawal,Bauchi City,Tomatoes,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Jos,132.12,2.20,8,7.5,ColdHub Cold Storage,300,3791
+Zainab Nduka,Enugu City,Okra,"Old Artisan Market, Enugu State",50,0.83,Lagos,588.82,9.81,8,7.5,ColdHub Cold Storage,300,3791
+Jide Yahaya,Sokoto City,Okra,"Yankaba Market, Kano, Kano State",375.39,6.26,Kano,50,0.83,8,7.5,ColdHub Cold Storage,300,3791
+Pius Mohammed,Lafia,Okra,"Orange Market, Mararaba, Nasarawa State",50,0.83,Lagos,737.11,12.29,8,7.5,ColdHub Cold Storage,300,3791
+Dami Abara,Yola,Yams,"Bypass Market, Yola, Adamawa State",50,0.83,Makurdi,628.89,10.48,15,2,ColdHub Cold Storage,300,3791
+Chi Bello,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Port Harcourt,1091,18.18,0,3.5,ColdHub Cold Storage,300,3791
+Femi Zubair,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Warri,744,12.40,0,3.5,ColdHub Cold Storage,300,3791
+Musa Ojo,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Lagos,958.27,15.97,0,3.5,ColdHub Cold Storage,300,3791
+Chi Sule,Bauchi City,Tomatoes,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Jos,132.12,2.20,8,7.5,ColdHub Cold Storage,300,3791
+Kemi Sule,Sokoto City,Tomatoes,"Yankaba Market, Kano, Kano State",375.39,6.26,Lagos,992.07,16.53,8,7.5,ColdHub Cold Storage,300,3791
+Jide Kanu,Bauchi City,Tomatoes,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Kano,287,4.78,8,7.5,ColdHub Cold Storage,300,3791
+Ike Quadri,Makurdi,Tomatoes,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Jos,258,4.30,8,7.5,ColdHub Cold Storage,300,3791
+Pius Rimi,Awka,Okra,"Old Artisan Market, Enugu State",54.97,0.92,Lagos,588.82,9.81,8,7.5,ColdHub Cold Storage,300,3791
+Efe Eze,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Abuja,232.62,3.88,0,3.5,ColdHub Cold Storage,300,3791
+Bola Vatsa,Lafia,Okra,"Orange Market, Mararaba, Nasarawa State",50,0.83,Ibadan,684.86,11.41,8,7.5,ColdHub Cold Storage,300,3791
+Kemi Zubair,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Warri,958,15.97,0,3.5,ColdHub Cold Storage,300,3791
+Ike Williams,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Lagos,958.27,15.97,0,3.5,ColdHub Cold Storage,300,3791
+Titi Yahaya,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Onitsha,866,14.43,0,3.5,ColdHub Cold Storage,300,3791
+Vera Ojo,Ibadan,Peppers,"Bodija Market, Ibadan, Oyo State",50,0.83,Aba,727.17,12.12,8,5,ColdHub Cold Storage,300,3791
+Jide Cole,Kano City,Peppers,"Yankaba Market, Kano, Kano State",50,0.83,Lagos,992.07,16.53,8,5,ColdHub Cold Storage,300,3791
+Lami Rimi,Ibadan,Peppers,"Bodija Market, Ibadan, Oyo State",50,0.83,Lagos,130.82,2.18,8,5,ColdHub Cold Storage,300,3791
+Femi Abara,Ibadan,Tomatoes,"Bodija Market, Ibadan, Oyo State",50,0.83,Kano,863.35,14.39,8,7.5,ColdHub Cold Storage,300,3791
+Zainab Popoola,Abakaliki,Okra,"Abakaliki Market, Ebonyi State",50,0.83,Ibadan,684.86,11.41,8,7.5,ColdHub Cold Storage,300,3791
+Titi Abara,Awka,Okra,"Old Artisan Market, Enugu State",54.97,0.92,Kano,828,13.80,8,7.5,ColdHub Cold Storage,300,3791
+Lami Williams,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Lagos,992.07,16.53,0,3.5,ColdHub Cold Storage,300,3791
+Pius Garba,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Warri,531.11,8.85,0,3.5,ColdHub Cold Storage,300,3791
+Chi Williams,Calabar,Yams,"Abakaliki Market, Ebonyi State",82.95,1.38,Ibadan,684.86,11.41,15,2,ColdHub Cold Storage,300,3791
+Zainab Abara,Yola,Yams,"Bypass Market, Yola, Adamawa State",50,0.83,Ibadan,1304,21.73,15,2,ColdHub Cold Storage,300,3791
+Habib Danjuma,Sokoto City,Okra,"Yankaba Market, Kano, Kano State",375.39,6.26,Ibadan,865.35,14.42,8,7.5,ColdHub Cold Storage,300,3791
+Lami Jallo,Jalingo,Tomatoes,"Building Materials Market, Jos, Plateau State",166.54,2.78,Jos,330.66,5.51,8,7.5,ColdHub Cold Storage,300,3791
+Lami Faniyi,Kano City,Okra,"Yankaba Market, Kano, Kano State",50,0.83,Enugu,801.37,13.36,8,7.5,ColdHub Cold Storage,300,3791
+Remi Ojo,Awka,Okra,"Old Artisan Market, Enugu State",54.97,0.92,Ibadan,537.92,8.97,8,7.5,ColdHub Cold Storage,300,3791
+Efe Abara,Minna,Yams,"Dei Dei Regional Market, Abuja, FCT",177.5,2.96,Abuja,160,2.67,15,2,ColdHub Cold Storage,300,3791
+Habib Umar,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Port Harcourt,807.03,13.45,0,3.5,ColdHub Cold Storage,300,3791
+Ngozi Ibeh,Jalingo,Tomatoes,"Building Materials Market, Jos, Plateau State",166.54,2.78,Lagos,829.39,13.82,8,7.5,ColdHub Cold Storage,300,3791
+Gozi Eze,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Lagos,776.51,12.94,0,3.5,ColdHub Cold Storage,300,3791
+Ngozi Williams,Kaduna City,Peppers,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Aba,727.17,12.12,8,5,ColdHub Cold Storage,300,3791
+Yemi Mohammed,Makurdi,Okra,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Ibadan,684.86,11.41,8,7.5,ColdHub Cold Storage,300,3791
+Kemi Ojo,Jos,Tomatoes,"Building Materials Market, Jos, Plateau State",50,0.83,Abuja,232.62,3.88,8,7.5,ColdHub Cold Storage,300,3791
+Gozi Faniyi,Jos,Tomatoes,"Building Materials Market, Jos, Plateau State",50,0.83,Abuja,232.62,3.88,8,7.5,ColdHub Cold Storage,300,3791
+Ade Kanu,Kano City,Okra,"Yankaba Market, Kano, Kano State",50,0.83,Lagos,992.07,16.53,8,7.5,ColdHub Cold Storage,300,3791
+Zainab Cole,Lafia,Okra,"Orange Market, Mararaba, Nasarawa State",50,0.83,Ibadan,684.86,11.41,8,7.5,ColdHub Cold Storage,300,3791
+Titi Popoola,Ibadan,Yams,"Bodija Market, Ibadan, Oyo State",50,0.83,Ibadan,537.92,8.97,15,2,ColdHub Cold Storage,300,3791
+Pius Sule,Dutse,Peppers,"Yankaba Market, Kano, Kano State",117.87,1.96,Aba,727.17,12.12,8,5,ColdHub Cold Storage,300,3791
+Uche Quadri,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Onitsha,866,14.43,0,3.5,ColdHub Cold Storage,300,3791
+Uche Quadri,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Lagos,737.11,12.29,0,3.5,ColdHub Cold Storage,300,3791
+Chi Ojo,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Lagos,958.27,15.97,0,3.5,ColdHub Cold Storage,300,3791
+Ade Quadri,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Warri,958,15.97,0,3.5,ColdHub Cold Storage,300,3791
+Quin Quadri,Lafia,Tomatoes,"Orange Market, Mararaba, Nasarawa State",50,0.83,Jos,258,4.30,8,7.5,ColdHub Cold Storage,300,3791
+Quin Popoola,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Port Harcourt,756.55,12.61,0,3.5,ColdHub Cold Storage,300,3791
+Chi Cole,Abakaliki,Okra,"Abakaliki Market, Ebonyi State",50,0.83,Enugu,78.2,1.30,8,7.5,ColdHub Cold Storage,300,3791
+Gozi Faniyi,Makurdi,Yams,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Abuja,50,0.83,15,2,ColdHub Cold Storage,300,3791
+Ade Hassan,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Lagos,737.11,12.29,0,3.5,ColdHub Cold Storage,300,3791
+Lami Sule,Bauchi City,Peppers,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Lagos,1159,19.32,8,5,ColdHub Cold Storage,300,3791
+Uche Eze,Ibadan,Yams,"Bodija Market, Ibadan, Oyo State",50,0.83,Abuja,617.21,10.29,15,2,ColdHub Cold Storage,300,3791
+Wale Kanu,Jos,Yams,"Building Materials Market, Jos, Plateau State",50,0.83,Ibadan,831.54,13.86,15,2,ColdHub Cold Storage,300,3791
+Jide Faniyi,Dutse,Peppers,"Yankaba Market, Kano, Kano State",117.87,1.96,Abuja,428.76,7.15,8,5,ColdHub Cold Storage,300,3791
+Quin Lawal,Ibadan,Tomatoes,"Bodija Market, Ibadan, Oyo State",50,0.83,Kano,863.35,14.39,8,7.5,ColdHub Cold Storage,300,3791
+Jide Rimi,Calabar,Yams,"Abakaliki Market, Ebonyi State",82.95,1.38,Abuja,406,6.77,15,2,ColdHub Cold Storage,300,3791
+Ade Rimi,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Onitsha,494,8.23,0,3.5,ColdHub Cold Storage,300,3791
+Ade Garba,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Onitsha,494,8.23,0,3.5,ColdHub Cold Storage,300,3791
+Ike Tanimu,Abakaliki,Yams,"Abakaliki Market, Ebonyi State",50,0.83,Lagos,630,10.50,15,2,ColdHub Cold Storage,300,3791
+Musa Tanimu,Yola,Yams,"Bypass Market, Yola, Adamawa State",50,0.83,Lagos,1331,22.18,15,2,ColdHub Cold Storage,300,3791
+Ade Bello,Kano City,Peppers,"Yankaba Market, Kano, Kano State",50,0.83,Abuja,428.76,7.15,8,5,ColdHub Cold Storage,300,3791
+Quin Sule,Minna,Yams,"Dei Dei Regional Market, Abuja, FCT",177.5,2.96,Ibadan,496,8.27,15,2,ColdHub Cold Storage,300,3791
+Kemi Garba,Katsina City,Tomatoes,"Yankaba Market, Kano, Kano State",147.91,2.47,Kano,50,0.83,8,7.5,ColdHub Cold Storage,300,3791
+Bola Yahaya,Makurdi,Yams,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Lagos,737.11,12.29,15,2,ColdHub Cold Storage,300,3791
+Quin Zubair,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Port Harcourt,650,10.83,0,3.5,ColdHub Cold Storage,300,3791
+Dami Umar,Minna,Yams,"Dei Dei Regional Market, Abuja, FCT",177.5,2.96,Lagos,623,10.38,15,2,ColdHub Cold Storage,300,3791
+Ike Eze,Jos,Tomatoes,"Building Materials Market, Jos, Plateau State",50,0.83,Kano,312,5.20,8,7.5,ColdHub Cold Storage,300,3791
+Bola Williams,Makurdi,Peppers,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Lagos,737.11,12.29,8,5,ColdHub Cold Storage,300,3791
+Sani Umar,Lafia,Okra,"Orange Market, Mararaba, Nasarawa State",50,0.83,Enugu,413,6.88,8,7.5,ColdHub Cold Storage,300,3791
+Habib Danjuma,Bauchi City,Tomatoes,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Abuja,395,6.58,8,7.5,ColdHub Cold Storage,300,3791
+Uche Eze,Abakaliki,Yams,"Abakaliki Market, Ebonyi State",50,0.83,Makurdi,273.12,4.55,15,2,ColdHub Cold Storage,300,3791
+Titi Mohammed,Bauchi City,Peppers,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Lagos,1159,19.32,8,5,ColdHub Cold Storage,300,3791
+Sani Mohammed,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Lagos,737.11,12.29,0,3.5,ColdHub Cold Storage,300,3791
+Musa Nduka,Jos,Yams,"Building Materials Market, Jos, Plateau State",50,0.83,Lagos,958.27,15.97,15,2,ColdHub Cold Storage,300,3791
+Zainab Mohammed,Ibadan,Peppers,"Bodija Market, Ibadan, Oyo State",50,0.83,Lagos,130.82,2.18,8,5,ColdHub Cold Storage,300,3791
+Ola Mohammed,Jalingo,Yams,"Building Materials Market, Jos, Plateau State",166.54,2.78,Lagos,588.82,9.81,15,2,ColdHub Cold Storage,300,3791
+Uche Mohammed,Makurdi,Okra,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Ibadan,684.86,11.41,8,7.5,ColdHub Cold Storage,300,3791
+Ola Mohammed,Makurdi,Peppers,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Abuja,50,0.83,8,5,ColdHub Cold Storage,300,3791
+Efe Ojo,Kano City,Peppers,"Yankaba Market, Kano, Kano State",50,0.83,Abuja,428.76,7.15,8,5,ColdHub Cold Storage,300,3791
+Ngozi Williams,Dutse,Tomatoes,"Yankaba Market, Kano, Kano State",117.87,1.96,Abuja,428.76,7.15,8,7.5,ColdHub Cold Storage,300,3791
+Habib Williams,Enugu City,Okra,"Old Artisan Market, Enugu State",50,0.83,Enugu,50,0.83,8,7.5,ColdHub Cold Storage,300,3791
+Sani Faniyi,Kaduna City,Okra,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Lagos,776.51,12.94,8,7.5,ColdHub Cold Storage,300,3791
+Yemi Nduka,Jalingo,Yams,"Building Materials Market, Jos, Plateau State",166.54,2.78,Lagos,737.11,12.29,15,2,ColdHub Cold Storage,300,3791
+Ola Rimi,Sokoto City,Okra,"Yankaba Market, Kano, Kano State",375.39,6.26,Lagos,992.07,16.53,8,7.5,ColdHub Cold Storage,300,3791
+Ade Tanimu,Ibadan,Okra,"Bodija Market, Ibadan, Oyo State",50,0.83,Enugu,533.28,8.89,8,7.5,ColdHub Cold Storage,300,3791
+Femi Hassan,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Lagos,737.11,12.29,0,3.5,ColdHub Cold Storage,300,3791
+Femi Lawal,Makurdi,Okra,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Lagos,737.11,12.29,8,7.5,ColdHub Cold Storage,300,3791
+Zainab Tanimu,Jalingo,Tomatoes,"Building Materials Market, Jos, Plateau State",166.54,2.78,Abuja,374.12,6.24,8,7.5,ColdHub Cold Storage,300,3791
+Wale Bello,Katsina City,Tomatoes,"Yankaba Market, Kano, Kano State",147.91,2.47,Lagos,992.07,16.53,8,7.5,ColdHub Cold Storage,300,3791
+Ade Cole,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Onitsha,75.64,1.26,0,3.5,ColdHub Cold Storage,300,3791
+Pius Sule,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Warri,597,9.95,0,3.5,ColdHub Cold Storage,300,3791
+Efe Quadri,Ibadan,Tomatoes,"Bodija Market, Ibadan, Oyo State",50,0.83,Abuja,617.21,10.29,8,7.5,ColdHub Cold Storage,300,3791
+Zainab Garba,Bauchi City,Peppers,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Lagos,1159,19.32,8,5,ColdHub Cold Storage,300,3791
+Uche Faniyi,Lokoja,Okra,"Dei Dei Regional Market, Abuja, FCT",130.92,2.18,Kano,421,7.02,8,7.5,ColdHub Cold Storage,300,3791
+Efe Eze,Jos,Yams,"Building Materials Market, Jos, Plateau State",50,0.83,Abuja,232.62,3.88,15,2,ColdHub Cold Storage,300,3791
+Sani Yahaya,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Lagos,776.51,12.94,0,3.5,ColdHub Cold Storage,300,3791
+Ngozi Eze,Yola,Yams,"Bypass Market, Yola, Adamawa State",50,0.83,Lagos,1331,22.18,15,2,ColdHub Cold Storage,300,3791
+Uche Zubair,Makurdi,Okra,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Enugu,413,6.88,8,7.5,ColdHub Cold Storage,300,3791
+Lami Tanimu,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Onitsha,494,8.23,0,3.5,ColdHub Cold Storage,300,3791
+Uche Quadri,Ibadan,Tomatoes,"Bodija Market, Ibadan, Oyo State",50,0.83,Abuja,617.21,10.29,8,7.5,ColdHub Cold Storage,300,3791
+Remi Tanimu,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Warri,958,15.97,0,3.5,ColdHub Cold Storage,300,3791
+Ade Danjuma,Makurdi,Yams,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Abuja,50,0.83,15,2,ColdHub Cold Storage,300,3791
+Jide Rimi,Ibadan,Tomatoes,"Bodija Market, Ibadan, Oyo State",50,0.83,Jos,830.83,13.85,8,7.5,ColdHub Cold Storage,300,3791
+Uche Kanu,Jalingo,Tomatoes,"Building Materials Market, Jos, Plateau State",166.54,2.78,Kano,330.66,5.51,8,7.5,ColdHub Cold Storage,300,3791
+Lami Popoola,Dutse,Peppers,"Yankaba Market, Kano, Kano State",117.87,1.96,Aba,727.17,12.12,8,5,ColdHub Cold Storage,300,3791
+Ike Tanimu,Kano City,Peppers,"Yankaba Market, Kano, Kano State",50,0.83,Aba,727.17,12.12,8,5,ColdHub Cold Storage,300,3791
+Musa Ibeh,Ibadan,Tomatoes,"Bodija Market, Ibadan, Oyo State",50,0.83,Abuja,617.21,10.29,8,7.5,ColdHub Cold Storage,300,3791
+Femi Vatsa,Bauchi City,Tomatoes,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Kano,287,4.78,8,7.5,ColdHub Cold Storage,300,3791
+Ade Williams,Lafia,Okra,"Orange Market, Mararaba, Nasarawa State",50,0.83,Ibadan,684.86,11.41,8,7.5,ColdHub Cold Storage,300,3791
+Femi Yahaya,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Onitsha,437.88,7.30,0,3.5,ColdHub Cold Storage,300,3791
+Ngozi Cole,Ibadan,Peppers,"Bodija Market, Ibadan, Oyo State",50,0.83,Lagos,130.82,2.18,8,5,ColdHub Cold Storage,300,3791
+Chi Nduka,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Warri,573.26,9.55,0,3.5,ColdHub Cold Storage,300,3791
+Habib Danjuma,Jos,Tomatoes,"Building Materials Market, Jos, Plateau State",50,0.83,Lagos,958.27,15.97,8,7.5,ColdHub Cold Storage,300,3791
+Ngozi Garba,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Onitsha,75.64,1.26,0,3.5,ColdHub Cold Storage,300,3791
+Chi Kanu,Sokoto City,Tomatoes,"Yankaba Market, Kano, Kano State",375.39,6.26,Lagos,992.07,16.53,8,7.5,ColdHub Cold Storage,300,3791
+Uche Sule,Kaduna City,Yams,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Makurdi,248.09,4.13,15,2,ColdHub Cold Storage,300,3791
+Quin Eze,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Lagos,958.27,15.97,0,3.5,ColdHub Cold Storage,300,3791
+Chi Quadri,Lafia,Okra,"Orange Market, Mararaba, Nasarawa State",50,0.83,Kano,442,7.37,8,7.5,ColdHub Cold Storage,300,3791
+Femi Rimi,Makurdi,Okra,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Ibadan,684.86,11.41,8,7.5,ColdHub Cold Storage,300,3791
+Femi Vatsa,Kano City,Okra,"Yankaba Market, Kano, Kano State",50,0.83,Kano,50,0.83,8,7.5,ColdHub Cold Storage,300,3791
+Ade Jallo,Ibadan,Yams,"Bodija Market, Ibadan, Oyo State",50,0.83,Makurdi,604,10.07,15,2,ColdHub Cold Storage,300,3791
+Titi Danjuma,Minna,Yams,"Dei Dei Regional Market, Abuja, FCT",177.5,2.96,Ibadan,496,8.27,15,2,ColdHub Cold Storage,300,3791
+Musa Jallo,Ibadan,Tomatoes,"Bodija Market, Ibadan, Oyo State",50,0.83,Kano,863.35,14.39,8,7.5,ColdHub Cold Storage,300,3791
+Ola Faniyi,Kaduna City,Yams,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Lagos,776.51,12.94,15,2,ColdHub Cold Storage,300,3791
+Remi Hassan,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Port Harcourt,650,10.83,0,3.5,ColdHub Cold Storage,300,3791
+Efe Jallo,Makurdi,Yams,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Ibadan,684.86,11.41,15,2,ColdHub Cold Storage,300,3791
+Chi Hassan,Dutse,Tomatoes,"Yankaba Market, Kano, Kano State",117.87,1.96,Kano,50,0.83,8,7.5,ColdHub Cold Storage,300,3791
+Ngozi Nduka,Sokoto City,Peppers,"Yankaba Market, Kano, Kano State",375.39,6.26,Lagos,992.07,16.53,8,5,ColdHub Cold Storage,300,3791
+Sani Ibeh,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Lagos,776.51,12.94,0,3.5,ColdHub Cold Storage,300,3791
+Ngozi Eze,Ibadan,Peppers,"Bodija Market, Ibadan, Oyo State",50,0.83,Aba,727.17,12.12,8,5,ColdHub Cold Storage,300,3791
+Yemi Garba,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Warri,390.31,6.51,0,3.5,ColdHub Cold Storage,300,3791
+Jide Cole,Makurdi,Tomatoes,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Abuja,50,0.83,8,7.5,ColdHub Cold Storage,300,3791
+Ola Quadri,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Onitsha,437.88,7.30,0,3.5,ColdHub Cold Storage,300,3791
+Vera Lawal,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Onitsha,54.97,0.92,0,3.5,ColdHub Cold Storage,300,3791
+Zainab Cole,Ibadan,Peppers,"Bodija Market, Ibadan, Oyo State",50,0.83,Lagos,130.82,2.18,8,5,ColdHub Cold Storage,300,3791
+Bola Ibeh,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Port Harcourt,1091,18.18,0,3.5,ColdHub Cold Storage,300,3791
+Lami Yahaya,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Lagos,776.51,12.94,0,3.5,ColdHub Cold Storage,300,3791
+Chi Sule,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Warri,744,12.40,0,3.5,ColdHub Cold Storage,300,3791
+Ade Ibeh,Abakaliki,Yams,"Abakaliki Market, Ebonyi State",50,0.83,Makurdi,273.12,4.55,15,2,ColdHub Cold Storage,300,3791
+Dami Faniyi,Sokoto City,Okra,"Yankaba Market, Kano, Kano State",375.39,6.26,Enugu,801.37,13.36,8,7.5,ColdHub Cold Storage,300,3791
+Lami Mohammed,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Lagos,776.51,12.94,0,3.5,ColdHub Cold Storage,300,3791
+Sani Rimi,Ibadan,Tomatoes,"Bodija Market, Ibadan, Oyo State",50,0.83,Jos,830.83,13.85,8,7.5,ColdHub Cold Storage,300,3791
+Kemi Danjuma,Calabar,Yams,"Abakaliki Market, Ebonyi State",82.95,1.38,Ibadan,684.86,11.41,15,2,ColdHub Cold Storage,300,3791
+Chi Rimi,Makurdi,Yams,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Lagos,737.11,12.29,15,2,ColdHub Cold Storage,300,3791
+Musa Williams,Jalingo,Tomatoes,"Building Materials Market, Jos, Plateau State",166.54,2.78,Lagos,829.39,13.82,8,7.5,ColdHub Cold Storage,300,3791
+Lami Sule,Yola,Yams,"Bypass Market, Yola, Adamawa State",50,0.83,Makurdi,628.89,10.48,15,2,ColdHub Cold Storage,300,3791
+Ade Ibeh,Lafia,Yams,"Orange Market, Mararaba, Nasarawa State",50,0.83,Abuja,50,0.83,15,2,ColdHub Cold Storage,300,3791
+Quin Bello,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Lagos,776.51,12.94,0,3.5,ColdHub Cold Storage,300,3791
+Remi Danjuma,Kaduna City,Yams,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Lagos,776.51,12.94,15,2,ColdHub Cold Storage,300,3791
+Chi Zubair,Ibadan,Peppers,"Bodija Market, Ibadan, Oyo State",50,0.83,Aba,727.17,12.12,8,5,ColdHub Cold Storage,300,3791
+Femi Zubair,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Warri,597,9.95,0,3.5,ColdHub Cold Storage,300,3791
+Bola Cole,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Onitsha,547.44,9.12,0,3.5,ColdHub Cold Storage,300,3791
+Pius Garba,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Warri,99.89,1.66,0,3.5,ColdHub Cold Storage,300,3791
+Quin Ojo,Minna,Yams,"Dei Dei Regional Market, Abuja, FCT",177.5,2.96,Ibadan,496,8.27,15,2,ColdHub Cold Storage,300,3791
+Efe Williams,Makurdi,Peppers,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Aba,593,9.88,8,5,ColdHub Cold Storage,300,3791
+Jide Ibeh,Ado Ekiti,Yams,"ShaSha Market, Ado Ekiti, Ekiti State",50,0.83,Abuja,400.88,6.68,15,2,ColdHub Cold Storage,300,3791
+Femi Popoola,Kano City,Okra,"Yankaba Market, Kano, Kano State",50,0.83,Lagos,992.07,16.53,8,7.5,ColdHub Cold Storage,300,3791
+Gozi Ibeh,Lafia,Okra,"Orange Market, Mararaba, Nasarawa State",50,0.83,Ibadan,684.86,11.41,8,7.5,ColdHub Cold Storage,300,3791
+Jide Popoola,Jos,Yams,"Building Materials Market, Jos, Plateau State",50,0.83,Lagos,958.27,15.97,15,2,ColdHub Cold Storage,300,3791
+Kemi Rimi,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Onitsha,75.64,1.26,0,3.5,ColdHub Cold Storage,300,3791
+Femi Williams,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Warri,958,15.97,0,3.5,ColdHub Cold Storage,300,3791
+Wale Abara,Makurdi,Okra,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Enugu,413,6.88,8,7.5,ColdHub Cold Storage,300,3791
+Pius Mohammed,Makurdi,Tomatoes,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Jos,258,4.30,8,7.5,ColdHub Cold Storage,300,3791
+Jide Ibeh,Ado Ekiti,Yams,"ShaSha Market, Ado Ekiti, Ekiti State",50,0.83,Makurdi,478,7.97,15,2,ColdHub Cold Storage,300,3791
+Vera Bello,Ado Ekiti,Yams,"ShaSha Market, Ado Ekiti, Ekiti State",50,0.83,Abuja,400.88,6.68,15,2,ColdHub Cold Storage,300,3791
+Ngozi Yahaya,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Warri,395.66,6.59,0,3.5,ColdHub Cold Storage,300,3791
+Habib Faniyi,Jalingo,Tomatoes,"Building Materials Market, Jos, Plateau State",166.54,2.78,Lagos,588.82,9.81,8,7.5,ColdHub Cold Storage,300,3791
+Quin Ibeh,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Warri,958,15.97,0,3.5,ColdHub Cold Storage,300,3791
+Musa Abara,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Warri,99.89,1.66,0,3.5,ColdHub Cold Storage,300,3791
+Habib Rimi,Asaba,Okra,"Smart farmers Market Summit junction, Delta State",50,0.83,Kano,387.52,6.46,8,7.5,ColdHub Cold Storage,300,3791
+Lami Eze,Bauchi City,Peppers,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Abuja,395,6.58,8,5,ColdHub Cold Storage,300,3791
+Gozi Cole,Lafia,Okra,"Orange Market, Mararaba, Nasarawa State",50,0.83,Kano,442,7.37,8,7.5,ColdHub Cold Storage,300,3791
+Zainab Danjuma,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Onitsha,659.69,10.99,0,3.5,ColdHub Cold Storage,300,3791
+Gozi Ibeh,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Onitsha,494,8.23,0,3.5,ColdHub Cold Storage,300,3791
+Uche Lawal,Makurdi,Tomatoes,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Kano,442,7.37,8,7.5,ColdHub Cold Storage,300,3791
+Musa Faniyi,Jos,Yams,"Building Materials Market, Jos, Plateau State",50,0.83,Ibadan,831.54,13.86,15,2,ColdHub Cold Storage,300,3791
+Vera Williams,Katsina City,Tomatoes,"Yankaba Market, Kano, Kano State",147.91,2.47,Kano,50,0.83,8,7.5,ColdHub Cold Storage,300,3791
+Wale Williams,Jalingo,Tomatoes,"Building Materials Market, Jos, Plateau State",166.54,2.78,Jos,239.27,3.99,8,7.5,ColdHub Cold Storage,300,3791
+Jide Umar,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Port Harcourt,650,10.83,0,3.5,ColdHub Cold Storage,300,3791
+Remi Cole,Jos,Tomatoes,"Building Materials Market, Jos, Plateau State",50,0.83,Kano,312,5.20,8,7.5,ColdHub Cold Storage,300,3791
+Chi Cole,Yola,Yams,"Bypass Market, Yola, Adamawa State",50,0.83,Makurdi,628.89,10.48,15,2,ColdHub Cold Storage,300,3791
+Lami Eze,Kaduna City,Peppers,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Aba,462.96,7.72,8,5,ColdHub Cold Storage,300,3791
+Titi Ibeh,Bauchi City,Tomatoes,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Lagos,1159,19.32,8,7.5,ColdHub Cold Storage,300,3791
+Quin Tanimu,Makurdi,Yams,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Lagos,737.11,12.29,15,2,ColdHub Cold Storage,300,3791
+Jide Ibeh,Sokoto City,Peppers,"Yankaba Market, Kano, Kano State",375.39,6.26,Abuja,428.76,7.15,8,5,ColdHub Cold Storage,300,3791
+Gozi Vatsa,Minna,Yams,"Dei Dei Regional Market, Abuja, FCT",177.5,2.96,Lagos,623,10.38,15,2,ColdHub Cold Storage,300,3791
+Dami Faniyi,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Warri,958,15.97,0,3.5,ColdHub Cold Storage,300,3791
+Titi Umar,Ibadan,Tomatoes,"Bodija Market, Ibadan, Oyo State",50,0.83,Jos,830.83,13.85,8,7.5,ColdHub Cold Storage,300,3791
+Titi Hassan,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Onitsha,423.42,7.06,0,3.5,ColdHub Cold Storage,300,3791
+Ike Yahaya,Makurdi,Peppers,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Aba,593,9.88,8,5,ColdHub Cold Storage,300,3791
+Vera Kanu,Enugu City,Okra,"Old Artisan Market, Enugu State",50,0.83,Kano,828,13.80,8,7.5,ColdHub Cold Storage,300,3791
+Ngozi Garba,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Onitsha,494,8.23,0,3.5,ColdHub Cold Storage,300,3791
+Femi Ibeh,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Onitsha,866,14.43,0,3.5,ColdHub Cold Storage,300,3791
+Ike Lawal,Kano City,Peppers,"Yankaba Market, Kano, Kano State",50,0.83,Aba,727.17,12.12,8,5,ColdHub Cold Storage,300,3791
+Zainab Cole,Kano City,Okra,"Yankaba Market, Kano, Kano State",50,0.83,Kano,50,0.83,8,7.5,ColdHub Cold Storage,300,3791
+Sani Popoola,Lafia,Okra,"Orange Market, Mararaba, Nasarawa State",50,0.83,Enugu,413,6.88,8,7.5,ColdHub Cold Storage,300,3791
+Dami Ojo,Ibadan,Okra,"Bodija Market, Ibadan, Oyo State",50,0.83,Ibadan,684.86,11.41,8,7.5,ColdHub Cold Storage,300,3791
+Gozi Tanimu,Lafia,Yams,"Orange Market, Mararaba, Nasarawa State",50,0.83,Abuja,50,0.83,15,2,ColdHub Cold Storage,300,3791
+Ike Tanimu,Bauchi City,Tomatoes,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Abuja,395,6.58,8,7.5,ColdHub Cold Storage,300,3791
+Sani Rimi,Makurdi,Okra,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Enugu,413,6.88,8,7.5,ColdHub Cold Storage,300,3791
+Chi Cole,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Port Harcourt,756.55,12.61,0,3.5,ColdHub Cold Storage,300,3791
+Zainab Yahaya,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Onitsha,75.64,1.26,0,3.5,ColdHub Cold Storage,300,3791
+Dami Bello,Bauchi City,Tomatoes,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Lagos,1159,19.32,8,7.5,ColdHub Cold Storage,300,3791
+Jide Abara,Katsina City,Tomatoes,"Yankaba Market, Kano, Kano State",147.91,2.47,Abuja,428.76,7.15,8,7.5,ColdHub Cold Storage,300,3791
+Yemi Zubair,Lafia,Okra,"Orange Market, Mararaba, Nasarawa State",50,0.83,Ibadan,684.86,11.41,8,7.5,ColdHub Cold Storage,300,3791
+Wale Lawal,Dutse,Peppers,"Yankaba Market, Kano, Kano State",117.87,1.96,Abuja,428.76,7.15,8,5,ColdHub Cold Storage,300,3791
+Yemi Ibeh,Kano City,Okra,"Yankaba Market, Kano, Kano State",50,0.83,Lagos,992.07,16.53,8,7.5,ColdHub Cold Storage,300,3791
+Ola Yahaya,Makurdi,Tomatoes,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Jos,258,4.30,8,7.5,ColdHub Cold Storage,300,3791
+Ade Eze,Makurdi,Peppers,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Lagos,737.11,12.29,8,5,ColdHub Cold Storage,300,3791
+Remi Ojo,Makurdi,Yams,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Makurdi,267,4.45,15,2,ColdHub Cold Storage,300,3791
+Titi Mohammed,Awka,Okra,"Old Artisan Market, Enugu State",54.97,0.92,Lagos,588.82,9.81,8,7.5,ColdHub Cold Storage,300,3791
+Lami Quadri,Ado Ekiti,Yams,"ShaSha Market, Ado Ekiti, Ekiti State",50,0.83,Abuja,400.88,6.68,15,2,ColdHub Cold Storage,300,3791
+Chi Vatsa,Makurdi,Tomatoes,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Jos,258,4.30,8,7.5,ColdHub Cold Storage,300,3791
+Chi Faniyi,Abakaliki,Okra,"Abakaliki Market, Ebonyi State",50,0.83,Lagos,630,10.50,8,7.5,ColdHub Cold Storage,300,3791
+Efe Vatsa,Bauchi City,Tomatoes,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Abuja,395,6.58,8,7.5,ColdHub Cold Storage,300,3791
+Remi Williams,Kaduna City,Peppers,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Abuja,195.51,3.26,8,5,ColdHub Cold Storage,300,3791
+Efe Umar,Gombe City,Tomatoes,"Muda Lawal Market, Bauchi, Bauchi State",145.61,2.43,Kano,287,4.78,8,7.5,ColdHub Cold Storage,300,3791
+Zainab Quadri,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Port Harcourt,1091,18.18,0,3.5,ColdHub Cold Storage,300,3791
+Titi Vatsa,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Onitsha,254.47,4.24,0,3.5,ColdHub Cold Storage,300,3791
+Pius Williams,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Lagos,776.51,12.94,0,3.5,ColdHub Cold Storage,300,3791
+Yemi Danjuma,Jalingo,Tomatoes,"Building Materials Market, Jos, Plateau State",166.54,2.78,Jos,371.01,6.18,8,7.5,ColdHub Cold Storage,300,3791
+Femi Faniyi,Yola,Yams,"Bypass Market, Yola, Adamawa State",50,0.83,Ibadan,1304,21.73,15,2,ColdHub Cold Storage,300,3791
+Efe Umar,Oshogbo,Okra,"Oja Tun Tun Market, Ile-Ife, Osun State",50,0.83,Lagos,292,4.87,8,7.5,ColdHub Cold Storage,300,3791
+Quin Umar,Lokoja,Okra,"Dei Dei Regional Market, Abuja, FCT",130.92,2.18,Lagos,775,12.92,8,7.5,ColdHub Cold Storage,300,3791
+Titi Tanimu,Kaduna City,Yams,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Ibadan,649.79,10.83,15,2,ColdHub Cold Storage,300,3791
+Kemi Cole,Kaduna City,Yams,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Ibadan,649.79,10.83,15,2,ColdHub Cold Storage,300,3791
+Habib Mohammed,Bauchi City,Tomatoes,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Kano,287,4.78,8,7.5,ColdHub Cold Storage,300,3791
+Jide Abara,Bauchi City,Peppers,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Aba,882,14.70,8,5,ColdHub Cold Storage,300,3791
+Sani Hassan,Kano City,Tomatoes,"Yankaba Market, Kano, Kano State",50,0.83,Lagos,992.07,16.53,8,7.5,ColdHub Cold Storage,300,3791
+Vera Faniyi,Lokoja,Yams,"Dei Dei Regional Market, Abuja, FCT",130.92,2.18,Lagos,775,12.92,15,2,ColdHub Cold Storage,300,3791
+Titi Lawal,Sokoto City,Peppers,"Yankaba Market, Kano, Kano State",375.39,6.26,Lagos,992.07,16.53,8,5,ColdHub Cold Storage,300,3791
+Titi Eze,Ibadan,Peppers,"Bodija Market, Ibadan, Oyo State",50,0.83,Abuja,617.21,10.29,8,5,ColdHub Cold Storage,300,3791
+Ade Kanu,Ibadan,Okra,"Bodija Market, Ibadan, Oyo State",50,0.83,Kano,863.35,14.39,8,7.5,ColdHub Cold Storage,300,3791
+Gozi Hassan,Ibadan,Tomatoes,"Bodija Market, Ibadan, Oyo State",50,0.83,Lagos,130.82,2.18,8,7.5,ColdHub Cold Storage,300,3791
+Zainab Jallo,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Warri,958,15.97,0,3.5,ColdHub Cold Storage,300,3791
+Zainab Nduka,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Warri,958,15.97,0,3.5,ColdHub Cold Storage,300,3791
+Zainab Yahaya,Lokoja,Yams,"Dei Dei Regional Market, Abuja, FCT",130.92,2.18,Lagos,775,12.92,15,2,ColdHub Cold Storage,300,3791
+Dami Ojo,Makurdi,Tomatoes,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Lagos,737.11,12.29,8,7.5,ColdHub Cold Storage,300,3791
+Yemi Hassan,Abakaliki,Okra,"Abakaliki Market, Ebonyi State",50,0.83,Lagos,630,10.50,8,7.5,ColdHub Cold Storage,300,3791
+Jide Ibeh,Lokoja,Yams,"Dei Dei Regional Market, Abuja, FCT",130.92,2.18,Makurdi,293,4.88,15,2,ColdHub Cold Storage,300,3791
+Musa Lawal,Calabar,Yams,"Abakaliki Market, Ebonyi State",82.95,1.38,Lagos,630,10.50,15,2,ColdHub Cold Storage,300,3791
+Ola Mohammed,Bauchi City,Tomatoes,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Kano,287,4.78,8,7.5,ColdHub Cold Storage,300,3791
+Sani Danjuma,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Onitsha,494,8.23,0,3.5,ColdHub Cold Storage,300,3791
+Wale Eze,Ibadan,Peppers,"Bodija Market, Ibadan, Oyo State",50,0.83,Abuja,617.21,10.29,8,5,ColdHub Cold Storage,300,3791
+Titi Sule,Jalingo,Yams,"Building Materials Market, Jos, Plateau State",166.54,2.78,Abuja,374.12,6.24,15,2,ColdHub Cold Storage,300,3791
+Dami Abara,Abakaliki,Okra,"Abakaliki Market, Ebonyi State",50,0.83,Enugu,78.2,1.30,8,7.5,ColdHub Cold Storage,300,3791
+Sani Ibeh,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Onitsha,423.42,7.06,0,3.5,ColdHub Cold Storage,300,3791
+Zainab Quadri,Gombe City,Tomatoes,"Muda Lawal Market, Bauchi, Bauchi State",145.61,2.43,Jos,132.12,2.20,8,7.5,ColdHub Cold Storage,300,3791
+Ade Popoola,Ibadan,Peppers,"Bodija Market, Ibadan, Oyo State",50,0.83,Abuja,617.21,10.29,8,5,ColdHub Cold Storage,300,3791
+Zainab Kanu,Enugu City,Okra,"Old Artisan Market, Enugu State",50,0.83,Kano,828,13.80,8,7.5,ColdHub Cold Storage,300,3791
+Musa Jallo,Jos,Peppers,"Building Materials Market, Jos, Plateau State",50,0.83,Abuja,232.62,3.88,8,5,ColdHub Cold Storage,300,3791
+Yemi Garba,Abakaliki,Okra,"Abakaliki Market, Ebonyi State",50,0.83,Kano,815,13.58,8,7.5,ColdHub Cold Storage,300,3791
+Femi Tanimu,Ibadan,Tomatoes,"Bodija Market, Ibadan, Oyo State",50,0.83,Jos,830.83,13.85,8,7.5,ColdHub Cold Storage,300,3791
+Ike Yahaya,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Onitsha,437.88,7.30,0,3.5,ColdHub Cold Storage,300,3791
+Quin Garba,Kaduna City,Yams,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Abuja,195.51,3.26,15,2,ColdHub Cold Storage,300,3791
+Musa Ojo,Jos,Peppers,"Building Materials Market, Jos, Plateau State",50,0.83,Abuja,232.62,3.88,8,5,ColdHub Cold Storage,300,3791
+Ade Abara,Kano City,Tomatoes,"Yankaba Market, Kano, Kano State",50,0.83,Kano,50,0.83,8,7.5,ColdHub Cold Storage,300,3791
+Uche Kanu,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Lagos,737.11,12.29,0,3.5,ColdHub Cold Storage,300,3791
+Efe Lawal,Makurdi,Okra,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Ibadan,684.86,11.41,8,7.5,ColdHub Cold Storage,300,3791
+Quin Rimi,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Lagos,992.07,16.53,0,3.5,ColdHub Cold Storage,300,3791
+Titi Garba,Dutse,Peppers,"Yankaba Market, Kano, Kano State",117.87,1.96,Abuja,428.76,7.15,8,5,ColdHub Cold Storage,300,3791
+Ola Mohammed,Minna,Yams,"Dei Dei Regional Market, Abuja, FCT",177.5,2.96,Ibadan,496,8.27,15,2,ColdHub Cold Storage,300,3791
+Ngozi Lawal,Ado Ekiti,Yams,"ShaSha Market, Ado Ekiti, Ekiti State",50,0.83,Abuja,400.88,6.68,15,2,ColdHub Cold Storage,300,3791
+Bola Rimi,Kaduna City,Peppers,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Lagos,776.51,12.94,8,5,ColdHub Cold Storage,300,3791
+Uche Garba,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Lagos,992.07,16.53,0,3.5,ColdHub Cold Storage,300,3791
+Zainab Umar,Kaduna City,Peppers,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Lagos,776.51,12.94,8,5,ColdHub Cold Storage,300,3791
+Habib Ibeh,Katsina City,Tomatoes,"Yankaba Market, Kano, Kano State",147.91,2.47,Abuja,428.76,7.15,8,7.5,ColdHub Cold Storage,300,3791
+Femi Tanimu,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Warri,167.75,2.80,0,3.5,ColdHub Cold Storage,300,3791
+Ike Umar,Yola,Yams,"Bypass Market, Yola, Adamawa State",50,0.83,Lagos,1331,22.18,15,2,ColdHub Cold Storage,300,3791
+Ngozi Tanimu,Lokoja,Okra,"Dei Dei Regional Market, Abuja, FCT",130.92,2.18,Enugu,438,7.30,8,7.5,ColdHub Cold Storage,300,3791
+Zainab Cole,Kaduna City,Yams,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Lagos,776.51,12.94,15,2,ColdHub Cold Storage,300,3791
+Lami Mohammed,Bauchi City,Peppers,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Abuja,395,6.58,8,5,ColdHub Cold Storage,300,3791
+Femi Quadri,Lokoja,Yams,"Dei Dei Regional Market, Abuja, FCT",130.92,2.18,Makurdi,293,4.88,15,2,ColdHub Cold Storage,300,3791
+Zainab Garba,Ibadan,Peppers,"Bodija Market, Ibadan, Oyo State",50,0.83,Lagos,130.82,2.18,8,5,ColdHub Cold Storage,300,3791
+Lami Ojo,Kano City,Okra,"Yankaba Market, Kano, Kano State",50,0.83,Enugu,801.37,13.36,8,7.5,ColdHub Cold Storage,300,3791
+Ola Ojo,Sokoto City,Peppers,"Yankaba Market, Kano, Kano State",375.39,6.26,Aba,727.17,12.12,8,5,ColdHub Cold Storage,300,3791
+Musa Kanu,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Warri,99.89,1.66,0,3.5,ColdHub Cold Storage,300,3791
+Bola Ibeh,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Onitsha,494,8.23,0,3.5,ColdHub Cold Storage,300,3791
+Remi Abara,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Onitsha,54.97,0.92,0,3.5,ColdHub Cold Storage,300,3791
+Quin Ojo,Jalingo,Yams,"Building Materials Market, Jos, Plateau State",166.54,2.78,Ibadan,537.92,8.97,15,2,ColdHub Cold Storage,300,3791
+Femi Eze,Kano City,Peppers,"Yankaba Market, Kano, Kano State",50,0.83,Lagos,992.07,16.53,8,5,ColdHub Cold Storage,300,3791
+Efe Quadri,Ibadan,Okra,"Bodija Market, Ibadan, Oyo State",50,0.83,Enugu,533.28,8.89,8,7.5,ColdHub Cold Storage,300,3791
+Ade Kanu,Sokoto City,Tomatoes,"Yankaba Market, Kano, Kano State",375.39,6.26,Abuja,428.76,7.15,8,7.5,ColdHub Cold Storage,300,3791
+Ike Danjuma,Kaduna City,Yams,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Abuja,195.51,3.26,15,2,ColdHub Cold Storage,300,3791
+Yemi Ojo,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Lagos,958.27,15.97,0,3.5,ColdHub Cold Storage,300,3791
+Efe Cole,Kano City,Peppers,"Yankaba Market, Kano, Kano State",50,0.83,Lagos,992.07,16.53,8,5,ColdHub Cold Storage,300,3791
+Quin Bello,Ibadan,Yams,"Bodija Market, Ibadan, Oyo State",50,0.83,Abuja,617.21,10.29,15,2,ColdHub Cold Storage,300,3791
+Jide Rimi,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Lagos,958.27,15.97,0,3.5,ColdHub Cold Storage,300,3791
+Zainab Kanu,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Port Harcourt,807.03,13.45,0,3.5,ColdHub Cold Storage,300,3791
+Lami Abara,Oshogbo,Okra,"Oja Tun Tun Market, Ile-Ife, Osun State",50,0.83,Enugu,619.74,10.33,8,7.5,ColdHub Cold Storage,300,3791
+Musa Bello,Abakaliki,Okra,"Abakaliki Market, Ebonyi State",50,0.83,Lagos,630,10.50,8,7.5,ColdHub Cold Storage,300,3791
+Titi Bello,Ibadan,Yams,"Bodija Market, Ibadan, Oyo State",50,0.83,Lagos,130.82,2.18,15,2,ColdHub Cold Storage,300,3791
+Ike Rimi,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Warri,597,9.95,0,3.5,ColdHub Cold Storage,300,3791
+Efe Faniyi,Katsina City,Tomatoes,"Yankaba Market, Kano, Kano State",147.91,2.47,Lagos,992.07,16.53,8,7.5,ColdHub Cold Storage,300,3791
+Quin Williams,Kaduna City,Tomatoes,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Jos,279.96,4.67,8,7.5,ColdHub Cold Storage,300,3791
+Ola Sule,Kano City,Okra,"Yankaba Market, Kano, Kano State",50,0.83,Kano,50,0.83,8,7.5,ColdHub Cold Storage,300,3791
+Uche Mohammed,Makurdi,Peppers,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Lagos,737.11,12.29,8,5,ColdHub Cold Storage,300,3791
+Pius Cole,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Warri,597,9.95,0,3.5,ColdHub Cold Storage,300,3791
+Ike Popoola,Abakaliki,Yams,"Abakaliki Market, Ebonyi State",50,0.83,Abuja,406,6.77,15,2,ColdHub Cold Storage,300,3791
+Efe Williams,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Lagos,992.07,16.53,0,3.5,ColdHub Cold Storage,300,3791
+Pius Bello,Lokoja,Yams,"Dei Dei Regional Market, Abuja, FCT",130.92,2.18,Ibadan,581,9.68,15,2,ColdHub Cold Storage,300,3791
+Dami Eze,Lokoja,Yams,"Dei Dei Regional Market, Abuja, FCT",130.92,2.18,Lagos,775,12.92,15,2,ColdHub Cold Storage,300,3791
+Uche Faniyi,Makurdi,Okra,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Kano,442,7.37,8,7.5,ColdHub Cold Storage,300,3791
+Uche Popoola,Sokoto City,Peppers,"Yankaba Market, Kano, Kano State",375.39,6.26,Lagos,992.07,16.53,8,5,ColdHub Cold Storage,300,3791
+Sani Hassan,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Onitsha,866,14.43,0,3.5,ColdHub Cold Storage,300,3791
+Remi Bello,Abakaliki,Yams,"Abakaliki Market, Ebonyi State",50,0.83,Ibadan,684.86,11.41,15,2,ColdHub Cold Storage,300,3791
+Pius Yahaya,Lafia,Yams,"Orange Market, Mararaba, Nasarawa State",50,0.83,Abuja,50,0.83,15,2,ColdHub Cold Storage,300,3791
+Ade Faniyi,Makurdi,Tomatoes,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Kano,442,7.37,8,7.5,ColdHub Cold Storage,300,3791
+Zainab Umar,Ibadan,Okra,"Bodija Market, Ibadan, Oyo State",50,0.83,Ibadan,194.57,3.24,8,7.5,ColdHub Cold Storage,300,3791
+Zainab Lawal,Abakaliki,Yams,"Abakaliki Market, Ebonyi State",50,0.83,Makurdi,273.12,4.55,15,2,ColdHub Cold Storage,300,3791
+Vera Yahaya,Yola,Yams,"Bypass Market, Yola, Adamawa State",50,0.83,Makurdi,628.89,10.48,15,2,ColdHub Cold Storage,300,3791
+Ike Rimi,Ibadan,Yams,"Bodija Market, Ibadan, Oyo State",50,0.83,Abuja,617.21,10.29,15,2,ColdHub Cold Storage,300,3791
+Musa Garba,Makurdi,Tomatoes,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Abuja,50,0.83,8,7.5,ColdHub Cold Storage,300,3791
+Ike Vatsa,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Warri,142.9,2.38,0,3.5,ColdHub Cold Storage,300,3791
+Titi Rimi,Kaduna City,Tomatoes,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Kano,235.72,3.93,8,7.5,ColdHub Cold Storage,300,3791
+Bola Bello,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Lagos,992.07,16.53,0,3.5,ColdHub Cold Storage,300,3791
+Efe Bello,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Warri,597,9.95,0,3.5,ColdHub Cold Storage,300,3791
+Habib Garba,Lafia,Yams,"Orange Market, Mararaba, Nasarawa State",50,0.83,Abuja,50,0.83,15,2,ColdHub Cold Storage,300,3791
+Jide Bello,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Warri,597,9.95,0,3.5,ColdHub Cold Storage,300,3791
+Ola Abara,Jalingo,Yams,"Building Materials Market, Jos, Plateau State",166.54,2.78,Ibadan,657.3,10.96,15,2,ColdHub Cold Storage,300,3791
+Jide Faniyi,Jos,Yams,"Building Materials Market, Jos, Plateau State",50,0.83,Ibadan,831.54,13.86,15,2,ColdHub Cold Storage,300,3791
+Ike Sule,Kaduna City,Peppers,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Abuja,195.51,3.26,8,5,ColdHub Cold Storage,300,3791
+Femi Ibeh,Oshogbo,Okra,"Oja Tun Tun Market, Ile-Ife, Osun State",50,0.83,Lagos,292,4.87,8,7.5,ColdHub Cold Storage,300,3791
+Vera Faniyi,Enugu City,Okra,"Old Artisan Market, Enugu State",50,0.83,Lagos,588.82,9.81,8,7.5,ColdHub Cold Storage,300,3791
+Vera Mohammed,Jalingo,Yams,"Building Materials Market, Jos, Plateau State",166.54,2.78,Abuja,256.8,4.28,15,2,ColdHub Cold Storage,300,3791
+Bola Hassan,Jalingo,Tomatoes,"Building Materials Market, Jos, Plateau State",166.54,2.78,Abuja,400.88,6.68,8,7.5,ColdHub Cold Storage,300,3791
+Uche Ibeh,Sokoto City,Peppers,"Yankaba Market, Kano, Kano State",375.39,6.26,Abuja,428.76,7.15,8,5,ColdHub Cold Storage,300,3791
+Ngozi Sule,Abakaliki,Okra,"Abakaliki Market, Ebonyi State",50,0.83,Enugu,78.2,1.30,8,7.5,ColdHub Cold Storage,300,3791
+Uche Umar,Lafia,Yams,"Orange Market, Mararaba, Nasarawa State",50,0.83,Makurdi,267,4.45,15,2,ColdHub Cold Storage,300,3791
+Kemi Hassan,Ibadan,Tomatoes,"Bodija Market, Ibadan, Oyo State",50,0.83,Lagos,130.82,2.18,8,7.5,ColdHub Cold Storage,300,3791
+Ade Yahaya,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Lagos,992.07,16.53,0,3.5,ColdHub Cold Storage,300,3791
+Titi Zubair,Kaduna City,Okra,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Ibadan,649.79,10.83,8,7.5,ColdHub Cold Storage,300,3791
+Efe Umar,Minna,Yams,"Dei Dei Regional Market, Abuja, FCT",177.5,2.96,Abuja,160,2.67,15,2,ColdHub Cold Storage,300,3791
+Sani Ojo,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Port Harcourt,807.03,13.45,0,3.5,ColdHub Cold Storage,300,3791
+Ike Cole,Kano City,Peppers,"Yankaba Market, Kano, Kano State",50,0.83,Aba,727.17,12.12,8,5,ColdHub Cold Storage,300,3791
+Bola Yahaya,Minna,Yams,"Dei Dei Regional Market, Abuja, FCT",177.5,2.96,Abuja,160,2.67,15,2,ColdHub Cold Storage,300,3791
+Lami Ibeh,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Onitsha,437.88,7.30,0,3.5,ColdHub Cold Storage,300,3791
+Ike Umar,Lokoja,Okra,"Dei Dei Regional Market, Abuja, FCT",130.92,2.18,Enugu,438,7.30,8,7.5,ColdHub Cold Storage,300,3791
+Ola Tanimu,Awka,Okra,"Old Artisan Market, Enugu State",54.97,0.92,Lagos,588.82,9.81,8,7.5,ColdHub Cold Storage,300,3791
+Ike Jallo,Ibadan,Yams,"Bodija Market, Ibadan, Oyo State",50,0.83,Abuja,617.21,10.29,15,2,ColdHub Cold Storage,300,3791
+Habib Jallo,Enugu City,Okra,"Old Artisan Market, Enugu State",50,0.83,Kano,828,13.80,8,7.5,ColdHub Cold Storage,300,3791
+Femi Rimi,Ibadan,Okra,"Bodija Market, Ibadan, Oyo State",50,0.83,Ibadan,519.65,8.66,8,7.5,ColdHub Cold Storage,300,3791
+Kemi Hassan,Dutse,Peppers,"Yankaba Market, Kano, Kano State",117.87,1.96,Aba,727.17,12.12,8,5,ColdHub Cold Storage,300,3791
+Habib Ojo,Jalingo,Yams,"Building Materials Market, Jos, Plateau State",166.54,2.78,Abuja,256.8,4.28,15,2,ColdHub Cold Storage,300,3791
+Ike Eze,Minna,Yams,"Dei Dei Regional Market, Abuja, FCT",177.5,2.96,Ibadan,496,8.27,15,2,ColdHub Cold Storage,300,3791
+Remi Tanimu,Sokoto City,Tomatoes,"Yankaba Market, Kano, Kano State",375.39,6.26,Lagos,992.07,16.53,8,7.5,ColdHub Cold Storage,300,3791
+Ike Umar,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Lagos,958.27,15.97,0,3.5,ColdHub Cold Storage,300,3791
+Remi Lawal,Makurdi,Peppers,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Lagos,737.11,12.29,8,5,ColdHub Cold Storage,300,3791
+Ade Abara,Asaba,Okra,"Smart farmers Market Summit junction, Delta State",50,0.83,Ibadan,519.65,8.66,8,7.5,ColdHub Cold Storage,300,3791
+Ike Ojo,Abakaliki,Yams,"Abakaliki Market, Ebonyi State",50,0.83,Abuja,406,6.77,15,2,ColdHub Cold Storage,300,3791
+Ola Umar,Ibadan,Okra,"Bodija Market, Ibadan, Oyo State",50,0.83,Kano,863.35,14.39,8,7.5,ColdHub Cold Storage,300,3791
+Ade Vatsa,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Lagos,737.11,12.29,0,3.5,ColdHub Cold Storage,300,3791
+Ngozi Vatsa,Dutse,Peppers,"Yankaba Market, Kano, Kano State",117.87,1.96,Lagos,992.07,16.53,8,5,ColdHub Cold Storage,300,3791
+Pius Abara,Awka,Okra,"Old Artisan Market, Enugu State",54.97,0.92,Kano,828,13.80,8,7.5,ColdHub Cold Storage,300,3791
+Ngozi Umar,Lokoja,Okra,"Dei Dei Regional Market, Abuja, FCT",130.92,2.18,Kano,421,7.02,8,7.5,ColdHub Cold Storage,300,3791
+Ngozi Eze,Bauchi City,Tomatoes,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Kano,287,4.78,8,7.5,ColdHub Cold Storage,300,3791
+Pius Garba,Kaduna City,Okra,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Enugu,568.12,9.47,8,7.5,ColdHub Cold Storage,300,3791
+Dami Garba,Kaduna City,Okra,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Enugu,568.12,9.47,8,7.5,ColdHub Cold Storage,300,3791
+Musa Eze,Ibadan,Okra,"Bodija Market, Ibadan, Oyo State",50,0.83,Kano,863.35,14.39,8,7.5,ColdHub Cold Storage,300,3791
+Gozi Bello,Sokoto City,Okra,"Yankaba Market, Kano, Kano State",375.39,6.26,Ibadan,865.35,14.42,8,7.5,ColdHub Cold Storage,300,3791
+Femi Bello,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Onitsha,866,14.43,0,3.5,ColdHub Cold Storage,300,3791
+Musa Kanu,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Port Harcourt,807.03,13.45,0,3.5,ColdHub Cold Storage,300,3791
+Ngozi Popoola,Kano City,Okra,"Yankaba Market, Kano, Kano State",50,0.83,Lagos,992.07,16.53,8,7.5,ColdHub Cold Storage,300,3791
+Ngozi Bello,Kaduna City,Tomatoes,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Jos,279.96,4.67,8,7.5,ColdHub Cold Storage,300,3791
+Uche Ojo,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Lagos,992.07,16.53,0,3.5,ColdHub Cold Storage,300,3791
+Ike Tanimu,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Onitsha,866,14.43,0,3.5,ColdHub Cold Storage,300,3791
+Bola Mohammed,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Warri,99.89,1.66,0,3.5,ColdHub Cold Storage,300,3791
+Dami Cole,Kaduna City,Peppers,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Lagos,776.51,12.94,8,5,ColdHub Cold Storage,300,3791
+Yemi Rimi,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Lagos,737.11,12.29,0,3.5,ColdHub Cold Storage,300,3791
+Efe Quadri,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Warri,167.75,2.80,0,3.5,ColdHub Cold Storage,300,3791
+Femi Tanimu,Ibadan,Tomatoes,"Bodija Market, Ibadan, Oyo State",50,0.83,Jos,830.83,13.85,8,7.5,ColdHub Cold Storage,300,3791
+Femi Ibeh,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Lagos,958.27,15.97,0,3.5,ColdHub Cold Storage,300,3791
+Jide Vatsa,Jalingo,Yams,"Building Materials Market, Jos, Plateau State",166.54,2.78,Makurdi,371.44,6.19,15,2,ColdHub Cold Storage,300,3791
+Sani Abara,Jos,Yams,"Building Materials Market, Jos, Plateau State",50,0.83,Abuja,232.62,3.88,15,2,ColdHub Cold Storage,300,3791
+Uche Yahaya,Asaba,Okra,"Smart farmers Market Summit junction, Delta State",50,0.83,Lagos,827.54,13.79,8,7.5,ColdHub Cold Storage,300,3791
+Ike Umar,Kaduna City,Peppers,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Abuja,195.51,3.26,8,5,ColdHub Cold Storage,300,3791
+Ola Mohammed,Kano City,Peppers,"Yankaba Market, Kano, Kano State",50,0.83,Lagos,992.07,16.53,8,5,ColdHub Cold Storage,300,3791
+Ola Umar,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Lagos,992.07,16.53,0,3.5,ColdHub Cold Storage,300,3791
+Musa Umar,Lokoja,Okra,"Dei Dei Regional Market, Abuja, FCT",130.92,2.18,Ibadan,581,9.68,8,7.5,ColdHub Cold Storage,300,3791
+Pius Williams,Oshogbo,Okra,"Oja Tun Tun Market, Ile-Ife, Osun State",50,0.83,Enugu,619.74,10.33,8,7.5,ColdHub Cold Storage,300,3791
+Remi Nduka,Ibadan,Yams,"Bodija Market, Ibadan, Oyo State",50,0.83,Abuja,617.21,10.29,15,2,ColdHub Cold Storage,300,3791
+Yemi Yahaya,Kaduna City,Peppers,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Lagos,776.51,12.94,8,5,ColdHub Cold Storage,300,3791
+Ngozi Yahaya,Lokoja,Yams,"Dei Dei Regional Market, Abuja, FCT",130.92,2.18,Ibadan,581,9.68,15,2,ColdHub Cold Storage,300,3791
+Zainab Bello,Ado Ekiti,Yams,"ShaSha Market, Ado Ekiti, Ekiti State",50,0.83,Ibadan,189,3.15,15,2,ColdHub Cold Storage,300,3791
+Uche Yahaya,Enugu City,Okra,"Old Artisan Market, Enugu State",50,0.83,Enugu,50,0.83,8,7.5,ColdHub Cold Storage,300,3791
+Ade Eze,Ibadan,Yams,"Bodija Market, Ibadan, Oyo State",50,0.83,Lagos,130.82,2.18,15,2,ColdHub Cold Storage,300,3791
+Dami Popoola,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Onitsha,494,8.23,0,3.5,ColdHub Cold Storage,300,3791
+Quin Tanimu,Gombe City,Tomatoes,"Muda Lawal Market, Bauchi, Bauchi State",145.61,2.43,Kano,287,4.78,8,7.5,ColdHub Cold Storage,300,3791
+Gozi Zubair,Lafia,Yams,"Orange Market, Mararaba, Nasarawa State",50,0.83,Abuja,50,0.83,15,2,ColdHub Cold Storage,300,3791
+Habib Mohammed,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Port Harcourt,807.03,13.45,0,3.5,ColdHub Cold Storage,300,3791
+Kemi Ibeh,Ibadan,Peppers,"Bodija Market, Ibadan, Oyo State",50,0.83,Aba,727.17,12.12,8,5,ColdHub Cold Storage,300,3791
+Yemi Zubair,Enugu City,Okra,"Old Artisan Market, Enugu State",50,0.83,Ibadan,537.92,8.97,8,7.5,ColdHub Cold Storage,300,3791
+Ike Kanu,Ibadan,Peppers,"Bodija Market, Ibadan, Oyo State",50,0.83,Lagos,130.82,2.18,8,5,ColdHub Cold Storage,300,3791
+Gozi Eze,Lokoja,Okra,"Dei Dei Regional Market, Abuja, FCT",130.92,2.18,Kano,421,7.02,8,7.5,ColdHub Cold Storage,300,3791
+Chi Cole,Makurdi,Peppers,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Abuja,50,0.83,8,5,ColdHub Cold Storage,300,3791
+Dami Zubair,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Warri,958,15.97,0,3.5,ColdHub Cold Storage,300,3791
+Musa Bello,Bauchi City,Tomatoes,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Abuja,395,6.58,8,7.5,ColdHub Cold Storage,300,3791
+Yemi Hassan,Awka,Okra,"Old Artisan Market, Enugu State",54.97,0.92,Enugu,50,0.83,8,7.5,ColdHub Cold Storage,300,3791
+Ola Popoola,Minna,Yams,"Dei Dei Regional Market, Abuja, FCT",177.5,2.96,Makurdi,437,7.28,15,2,ColdHub Cold Storage,300,3791
+Bola Yahaya,Makurdi,Yams,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Ibadan,684.86,11.41,15,2,ColdHub Cold Storage,300,3791
+Musa Popoola,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Port Harcourt,807.03,13.45,0,3.5,ColdHub Cold Storage,300,3791
+Ade Zubair,Calabar,Yams,"Abakaliki Market, Ebonyi State",82.95,1.38,Abuja,406,6.77,15,2,ColdHub Cold Storage,300,3791
+Efe Eze,Awka,Okra,"Old Artisan Market, Enugu State",54.97,0.92,Kano,828,13.80,8,7.5,ColdHub Cold Storage,300,3791
+Efe Ojo,Kaduna City,Okra,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Enugu,568.12,9.47,8,7.5,ColdHub Cold Storage,300,3791
+Dami Popoola,Dutse,Peppers,"Yankaba Market, Kano, Kano State",117.87,1.96,Aba,727.17,12.12,8,5,ColdHub Cold Storage,300,3791
+Kemi Faniyi,Makurdi,Yams,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Makurdi,267,4.45,15,2,ColdHub Cold Storage,300,3791
+Ngozi Rimi,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Lagos,737.11,12.29,0,3.5,ColdHub Cold Storage,300,3791
+Sani Sule,Kano City,Peppers,"Yankaba Market, Kano, Kano State",50,0.83,Abuja,428.76,7.15,8,5,ColdHub Cold Storage,300,3791
+Uche Tanimu,Jos,Yams,"Building Materials Market, Jos, Plateau State",50,0.83,Ibadan,831.54,13.86,15,2,ColdHub Cold Storage,300,3791
+Sani Quadri,Kano City,Okra,"Yankaba Market, Kano, Kano State",50,0.83,Enugu,801.37,13.36,8,7.5,ColdHub Cold Storage,300,3791
+Lami Vatsa,Sokoto City,Okra,"Yankaba Market, Kano, Kano State",375.39,6.26,Kano,50,0.83,8,7.5,ColdHub Cold Storage,300,3791
+Gozi Yahaya,Bauchi City,Tomatoes,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Kano,287,4.78,8,7.5,ColdHub Cold Storage,300,3791
+Dami Danjuma,Sokoto City,Tomatoes,"Yankaba Market, Kano, Kano State",375.39,6.26,Abuja,428.76,7.15,8,7.5,ColdHub Cold Storage,300,3791
+Wale Garba,Sokoto City,Okra,"Yankaba Market, Kano, Kano State",375.39,6.26,Enugu,801.37,13.36,8,7.5,ColdHub Cold Storage,300,3791
+Efe Jallo,Yola,Yams,"Bypass Market, Yola, Adamawa State",50,0.83,Lagos,1331,22.18,15,2,ColdHub Cold Storage,300,3791
+Femi Sule,Kano City,Peppers,"Yankaba Market, Kano, Kano State",50,0.83,Abuja,428.76,7.15,8,5,ColdHub Cold Storage,300,3791
+Bola Lawal,Gombe City,Tomatoes,"Muda Lawal Market, Bauchi, Bauchi State",145.61,2.43,Lagos,1159,19.32,8,7.5,ColdHub Cold Storage,300,3791
+Uche Zubair,Kano City,Okra,"Yankaba Market, Kano, Kano State",50,0.83,Enugu,801.37,13.36,8,7.5,ColdHub Cold Storage,300,3791
+Ade Popoola,Enugu City,Okra,"Old Artisan Market, Enugu State",50,0.83,Ibadan,537.92,8.97,8,7.5,ColdHub Cold Storage,300,3791
+Uche Lawal,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Warri,958,15.97,0,3.5,ColdHub Cold Storage,300,3791
+Ola Nduka,Ibadan,Yams,"Bodija Market, Ibadan, Oyo State",50,0.83,Abuja,617.21,10.29,15,2,ColdHub Cold Storage,300,3791
+Yemi Tanimu,Lokoja,Yams,"Dei Dei Regional Market, Abuja, FCT",130.92,2.18,Lagos,775,12.92,15,2,ColdHub Cold Storage,300,3791
+Sani Garba,Sokoto City,Okra,"Yankaba Market, Kano, Kano State",375.39,6.26,Kano,50,0.83,8,7.5,ColdHub Cold Storage,300,3791
+Ike Rimi,Makurdi,Tomatoes,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Abuja,50,0.83,8,7.5,ColdHub Cold Storage,300,3791
+Habib Faniyi,Lafia,Tomatoes,"Orange Market, Mararaba, Nasarawa State",50,0.83,Lagos,737.11,12.29,8,7.5,ColdHub Cold Storage,300,3791
+Ike Zubair,Lafia,Yams,"Orange Market, Mararaba, Nasarawa State",50,0.83,Lagos,737.11,12.29,15,2,ColdHub Cold Storage,300,3791
+Quin Kanu,Kano City,Okra,"Yankaba Market, Kano, Kano State",50,0.83,Kano,50,0.83,8,7.5,ColdHub Cold Storage,300,3791
+Quin Cole,Yola,Yams,"Bypass Market, Yola, Adamawa State",50,0.83,Makurdi,628.89,10.48,15,2,ColdHub Cold Storage,300,3791
+Wale Danjuma,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Lagos,737.11,12.29,0,3.5,ColdHub Cold Storage,300,3791
+Femi Quadri,Enugu City,Okra,"Old Artisan Market, Enugu State",50,0.83,Lagos,588.82,9.81,8,7.5,ColdHub Cold Storage,300,3791
+Zainab Ojo,Lafia,Yams,"Orange Market, Mararaba, Nasarawa State",50,0.83,Abuja,50,0.83,15,2,ColdHub Cold Storage,300,3791
+Chi Eze,Lafia,Tomatoes,"Orange Market, Mararaba, Nasarawa State",50,0.83,Kano,442,7.37,8,7.5,ColdHub Cold Storage,300,3791
+Quin Ibeh,Kano City,Peppers,"Yankaba Market, Kano, Kano State",50,0.83,Aba,727.17,12.12,8,5,ColdHub Cold Storage,300,3791
+Jide Abara,Sokoto City,Peppers,"Yankaba Market, Kano, Kano State",375.39,6.26,Lagos,992.07,16.53,8,5,ColdHub Cold Storage,300,3791
+Quin Sule,Kaduna City,Okra,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Kano,235.72,3.93,8,7.5,ColdHub Cold Storage,300,3791
+Pius Umar,Kaduna City,Peppers,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Lagos,776.51,12.94,8,5,ColdHub Cold Storage,300,3791
+Yemi Sule,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Lagos,992.07,16.53,0,3.5,ColdHub Cold Storage,300,3791
+Lami Bello,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Lagos,776.51,12.94,0,3.5,ColdHub Cold Storage,300,3791
+Titi Garba,Lokoja,Okra,"Dei Dei Regional Market, Abuja, FCT",130.92,2.18,Ibadan,581,9.68,8,7.5,ColdHub Cold Storage,300,3791
+Musa Hassan,Minna,Yams,"Dei Dei Regional Market, Abuja, FCT",177.5,2.96,Makurdi,437,7.28,15,2,ColdHub Cold Storage,300,3791
+Titi Nduka,Abakaliki,Yams,"Abakaliki Market, Ebonyi State",50,0.83,Lagos,630,10.50,15,2,ColdHub Cold Storage,300,3791
+Wale Ibeh,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Port Harcourt,1091,18.18,0,3.5,ColdHub Cold Storage,300,3791
+Uche Lawal,Sokoto City,Okra,"Yankaba Market, Kano, Kano State",375.39,6.26,Enugu,801.37,13.36,8,7.5,ColdHub Cold Storage,300,3791
+Habib Hassan,Oshogbo,Okra,"Oja Tun Tun Market, Ile-Ife, Osun State",50,0.83,Lagos,292,4.87,8,7.5,ColdHub Cold Storage,300,3791
+Zainab Kanu,Abakaliki,Yams,"Abakaliki Market, Ebonyi State",50,0.83,Ibadan,684.86,11.41,15,2,ColdHub Cold Storage,300,3791
+Habib Mohammed,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Onitsha,866,14.43,0,3.5,ColdHub Cold Storage,300,3791
+Quin Vatsa,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Lagos,958.27,15.97,0,3.5,ColdHub Cold Storage,300,3791
+Ngozi Jallo,Minna,Yams,"Dei Dei Regional Market, Abuja, FCT",177.5,2.96,Abuja,160,2.67,15,2,ColdHub Cold Storage,300,3791
+Remi Vatsa,Lafia,Tomatoes,"Orange Market, Mararaba, Nasarawa State",50,0.83,Abuja,50,0.83,8,7.5,ColdHub Cold Storage,300,3791
+Lami Cole,Yola,Yams,"Bypass Market, Yola, Adamawa State",50,0.83,Lagos,1331,22.18,15,2,ColdHub Cold Storage,300,3791
+Sani Popoola,Ibadan,Yams,"Bodija Market, Ibadan, Oyo State",50,0.83,Lagos,130.82,2.18,15,2,ColdHub Cold Storage,300,3791
+Ola Garba,Kaduna City,Tomatoes,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Jos,279.96,4.67,8,7.5,ColdHub Cold Storage,300,3791
+Zainab Danjuma,Lokoja,Yams,"Dei Dei Regional Market, Abuja, FCT",130.92,2.18,Abuja,50,0.83,15,2,ColdHub Cold Storage,300,3791
+Zainab Ojo,Bauchi City,Peppers,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Lagos,1159,19.32,8,5,ColdHub Cold Storage,300,3791
+Vera Lawal,Oshogbo,Okra,"Oja Tun Tun Market, Ile-Ife, Osun State",50,0.83,Ibadan,165,2.75,8,7.5,ColdHub Cold Storage,300,3791
+Yemi Vatsa,Kaduna City,Okra,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Enugu,568.12,9.47,8,7.5,ColdHub Cold Storage,300,3791
+Remi Popoola,Jalingo,Tomatoes,"Building Materials Market, Jos, Plateau State",166.54,2.78,Abuja,202.79,3.38,8,7.5,ColdHub Cold Storage,300,3791
+Habib Danjuma,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Warri,531.11,8.85,0,3.5,ColdHub Cold Storage,300,3791
+Bola Tanimu,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Onitsha,866,14.43,0,3.5,ColdHub Cold Storage,300,3791
+Gozi Quadri,Bauchi City,Tomatoes,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Jos,132.12,2.20,8,7.5,ColdHub Cold Storage,300,3791
+Efe Zubair,Enugu City,Okra,"Old Artisan Market, Enugu State",50,0.83,Kano,828,13.80,8,7.5,ColdHub Cold Storage,300,3791
+Pius Umar,Lafia,Yams,"Orange Market, Mararaba, Nasarawa State",50,0.83,Lagos,737.11,12.29,15,2,ColdHub Cold Storage,300,3791
+Kemi Hassan,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Warri,958,15.97,0,3.5,ColdHub Cold Storage,300,3791
+Dami Ibeh,Bauchi City,Peppers,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Aba,882,14.70,8,5,ColdHub Cold Storage,300,3791
+Ike Bello,Kaduna City,Okra,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Ibadan,649.79,10.83,8,7.5,ColdHub Cold Storage,300,3791
+Pius Williams,Ibadan,Tomatoes,"Bodija Market, Ibadan, Oyo State",50,0.83,Kano,863.35,14.39,8,7.5,ColdHub Cold Storage,300,3791
+Dami Williams,Oshogbo,Okra,"Oja Tun Tun Market, Ile-Ife, Osun State",50,0.83,Enugu,619.74,10.33,8,7.5,ColdHub Cold Storage,300,3791
+Habib Popoola,Makurdi,Yams,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Ibadan,684.86,11.41,15,2,ColdHub Cold Storage,300,3791
+Titi Umar,Sokoto City,Okra,"Yankaba Market, Kano, Kano State",375.39,6.26,Kano,50,0.83,8,7.5,ColdHub Cold Storage,300,3791
+Habib Ojo,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Port Harcourt,1091,18.18,0,3.5,ColdHub Cold Storage,300,3791
+Quin Bello,Bauchi City,Tomatoes,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Jos,132.12,2.20,8,7.5,ColdHub Cold Storage,300,3791
+Bola Jallo,Jos,Yams,"Building Materials Market, Jos, Plateau State",50,0.83,Abuja,232.62,3.88,15,2,ColdHub Cold Storage,300,3791
+Femi Yahaya,Oshogbo,Okra,"Oja Tun Tun Market, Ile-Ife, Osun State",50,0.83,Lagos,292,4.87,8,7.5,ColdHub Cold Storage,300,3791
+Yemi Danjuma,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Lagos,992.07,16.53,0,3.5,ColdHub Cold Storage,300,3791
+Jide Bello,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Port Harcourt,1091,18.18,0,3.5,ColdHub Cold Storage,300,3791
+Titi Ojo,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Onitsha,296.03,4.93,0,3.5,ColdHub Cold Storage,300,3791
+Pius Rimi,Bauchi City,Peppers,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Aba,882,14.70,8,5,ColdHub Cold Storage,300,3791
+Uche Abara,Calabar,Yams,"Abakaliki Market, Ebonyi State",82.95,1.38,Makurdi,273.12,4.55,15,2,ColdHub Cold Storage,300,3791
+Ola Cole,Bauchi City,Tomatoes,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Lagos,1159,19.32,8,7.5,ColdHub Cold Storage,300,3791
+Kemi Quadri,Jos,Peppers,"Building Materials Market, Jos, Plateau State",50,0.83,Abuja,232.62,3.88,8,5,ColdHub Cold Storage,300,3791
+Dami Popoola,Kano City,Peppers,"Yankaba Market, Kano, Kano State",50,0.83,Abuja,428.76,7.15,8,5,ColdHub Cold Storage,300,3791
+Pius Eze,Lafia,Yams,"Orange Market, Mararaba, Nasarawa State",50,0.83,Lagos,737.11,12.29,15,2,ColdHub Cold Storage,300,3791
+Ola Cole,Abakaliki,Okra,"Abakaliki Market, Ebonyi State",50,0.83,Enugu,78.2,1.30,8,7.5,ColdHub Cold Storage,300,3791
+Lami Zubair,Bauchi City,Peppers,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Abuja,395,6.58,8,5,ColdHub Cold Storage,300,3791
+Ngozi Hassan,Sokoto City,Tomatoes,"Yankaba Market, Kano, Kano State",375.39,6.26,Jos,279.86,4.66,8,7.5,ColdHub Cold Storage,300,3791
+Femi Jallo,Lokoja,Yams,"Dei Dei Regional Market, Abuja, FCT",130.92,2.18,Makurdi,293,4.88,15,2,ColdHub Cold Storage,300,3791
+Jide Bello,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Onitsha,494,8.23,0,3.5,ColdHub Cold Storage,300,3791
+Gozi Hassan,Ibadan,Okra,"Bodija Market, Ibadan, Oyo State",50,0.83,Enugu,533.28,8.89,8,7.5,ColdHub Cold Storage,300,3791
+Yemi Kanu,Makurdi,Yams,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Ibadan,684.86,11.41,15,2,ColdHub Cold Storage,300,3791
+Vera Cole,Enugu City,Okra,"Old Artisan Market, Enugu State",50,0.83,Enugu,50,0.83,8,7.5,ColdHub Cold Storage,300,3791
+Femi Eze,Makurdi,Peppers,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Abuja,50,0.83,8,5,ColdHub Cold Storage,300,3791
+Kemi Umar,Ibadan,Yams,"Bodija Market, Ibadan, Oyo State",50,0.83,Makurdi,604,10.07,15,2,ColdHub Cold Storage,300,3791
+Musa Sule,Ibadan,Okra,"Bodija Market, Ibadan, Oyo State",50,0.83,Kano,863.35,14.39,8,7.5,ColdHub Cold Storage,300,3791
+Bola Cole,Ado Ekiti,Yams,"ShaSha Market, Ado Ekiti, Ekiti State",50,0.83,Ibadan,189,3.15,15,2,ColdHub Cold Storage,300,3791
+Remi Quadri,Minna,Yams,"Dei Dei Regional Market, Abuja, FCT",177.5,2.96,Ibadan,496,8.27,15,2,ColdHub Cold Storage,300,3791
+Remi Bello,Ibadan,Peppers,"Bodija Market, Ibadan, Oyo State",50,0.83,Abuja,617.21,10.29,8,5,ColdHub Cold Storage,300,3791
+Ola Danjuma,Ibadan,Peppers,"Bodija Market, Ibadan, Oyo State",50,0.83,Aba,727.17,12.12,8,5,ColdHub Cold Storage,300,3791
+Remi Kanu,Lafia,Tomatoes,"Orange Market, Mararaba, Nasarawa State",50,0.83,Abuja,50,0.83,8,7.5,ColdHub Cold Storage,300,3791
+Ade Sule,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Port Harcourt,807.03,13.45,0,3.5,ColdHub Cold Storage,300,3791
+Yemi Faniyi,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Lagos,776.51,12.94,0,3.5,ColdHub Cold Storage,300,3791
+Uche Ojo,Kaduna City,Peppers,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Lagos,776.51,12.94,8,5,ColdHub Cold Storage,300,3791
+Remi Eze,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Lagos,992.07,16.53,0,3.5,ColdHub Cold Storage,300,3791
+Ola Danjuma,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Lagos,958.27,15.97,0,3.5,ColdHub Cold Storage,300,3791
+Ola Bello,Dutse,Peppers,"Yankaba Market, Kano, Kano State",117.87,1.96,Abuja,428.76,7.15,8,5,ColdHub Cold Storage,300,3791
+Titi Vatsa,Lafia,Okra,"Orange Market, Mararaba, Nasarawa State",50,0.83,Enugu,413,6.88,8,7.5,ColdHub Cold Storage,300,3791
+Remi Garba,Enugu City,Okra,"Old Artisan Market, Enugu State",50,0.83,Enugu,50,0.83,8,7.5,ColdHub Cold Storage,300,3791
+Lami Vatsa,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Warri,167.75,2.80,0,3.5,ColdHub Cold Storage,300,3791
+Kemi Umar,Kaduna City,Yams,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Makurdi,273.12,4.55,15,2,ColdHub Cold Storage,300,3791
+Quin Popoola,Abakaliki,Yams,"Abakaliki Market, Ebonyi State",50,0.83,Ibadan,684.86,11.41,15,2,ColdHub Cold Storage,300,3791
+Yemi Nduka,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Warri,531.11,8.85,0,3.5,ColdHub Cold Storage,300,3791
+Sani Rimi,Ado Ekiti,Yams,"ShaSha Market, Ado Ekiti, Ekiti State",50,0.83,Ibadan,189,3.15,15,2,ColdHub Cold Storage,300,3791
+Habib Rimi,Kaduna City,Okra,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Kano,235.72,3.93,8,7.5,ColdHub Cold Storage,300,3791
+Ngozi Jallo,Bauchi City,Tomatoes,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Abuja,395,6.58,8,7.5,ColdHub Cold Storage,300,3791
+Kemi Nduka,Ibadan,Tomatoes,"Bodija Market, Ibadan, Oyo State",50,0.83,Jos,830.83,13.85,8,7.5,ColdHub Cold Storage,300,3791
+Ngozi Vatsa,Ibadan,Okra,"Bodija Market, Ibadan, Oyo State",50,0.83,Ibadan,400.88,6.68,8,7.5,ColdHub Cold Storage,300,3791
+Remi Cole,Kaduna City,Cabbage,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Lagos,776.51,12.94,0,3.5,ColdHub Cold Storage,300,3791
+Sani Lawal,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Warri,167.75,2.80,0,3.5,ColdHub Cold Storage,300,3791
+Zainab Ibeh,Ibadan,Tomatoes,"Bodija Market, Ibadan, Oyo State",50,0.83,Jos,830.83,13.85,8,7.5,ColdHub Cold Storage,300,3791
+Remi Tanimu,Lafia,Tomatoes,"Orange Market, Mararaba, Nasarawa State",50,0.83,Abuja,50,0.83,8,7.5,ColdHub Cold Storage,300,3791
+Femi Sule,Yola,Yams,"Bypass Market, Yola, Adamawa State",50,0.83,Lagos,1331,22.18,15,2,ColdHub Cold Storage,300,3791
+Femi Quadri,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Lagos,958.27,15.97,0,3.5,ColdHub Cold Storage,300,3791
+Ola Danjuma,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Lagos,958.27,15.97,0,3.5,ColdHub Cold Storage,300,3791
+Sani Yahaya,Calabar,Yams,"Abakaliki Market, Ebonyi State",82.95,1.38,Lagos,630,10.50,15,2,ColdHub Cold Storage,300,3791
+Ngozi Bello,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Warri,597,9.95,0,3.5,ColdHub Cold Storage,300,3791
+Efe Nduka,Lafia,Okra,"Orange Market, Mararaba, Nasarawa State",50,0.83,Ibadan,684.86,11.41,8,7.5,ColdHub Cold Storage,300,3791
+Remi Umar,Abakaliki,Okra,"Abakaliki Market, Ebonyi State",50,0.83,Kano,815,13.58,8,7.5,ColdHub Cold Storage,300,3791
+Remi Danjuma,Gombe City,Tomatoes,"Muda Lawal Market, Bauchi, Bauchi State",145.61,2.43,Kano,287,4.78,8,7.5,ColdHub Cold Storage,300,3791
+Zainab Umar,Bauchi City,Tomatoes,"Muda Lawal Market, Bauchi, Bauchi State",50,0.83,Lagos,1159,19.32,8,7.5,ColdHub Cold Storage,300,3791
+Yemi Danjuma,Sokoto City,Okra,"Yankaba Market, Kano, Kano State",375.39,6.26,Ibadan,865.35,14.42,8,7.5,ColdHub Cold Storage,300,3791
+Yemi Ibeh,Makurdi,Okra,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Lagos,737.11,12.29,8,7.5,ColdHub Cold Storage,300,3791
+Vera Popoola,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Lagos,992.07,16.53,0,3.5,ColdHub Cold Storage,300,3791
+Remi Nduka,Makurdi,Tomatoes,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Kano,442,7.37,8,7.5,ColdHub Cold Storage,300,3791
+Gozi Popoola,Sokoto City,Peppers,"Yankaba Market, Kano, Kano State",375.39,6.26,Lagos,992.07,16.53,8,5,ColdHub Cold Storage,300,3791
+Ngozi Popoola,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Onitsha,866,14.43,0,3.5,ColdHub Cold Storage,300,3791
+Ola Jallo,Lafia,Yams,"Orange Market, Mararaba, Nasarawa State",50,0.83,Lagos,737.11,12.29,15,2,ColdHub Cold Storage,300,3791
+Musa Yahaya,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Onitsha,494,8.23,0,3.5,ColdHub Cold Storage,300,3791
+Bola Garba,Lokoja,Yams,"Dei Dei Regional Market, Abuja, FCT",130.92,2.18,Lagos,775,12.92,15,2,ColdHub Cold Storage,300,3791
+Sani Ojo,Lafia,Cabbage,"Orange Market, Mararaba, Nasarawa State",50,0.83,Port Harcourt,650,10.83,0,3.5,ColdHub Cold Storage,300,3791
+Titi Faniyi,Sokoto City,Peppers,"Yankaba Market, Kano, Kano State",375.39,6.26,Lagos,992.07,16.53,8,5,ColdHub Cold Storage,300,3791
+Kemi Zubair,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Warri,958,15.97,0,3.5,ColdHub Cold Storage,300,3791
+Titi Cole,Lafia,Tomatoes,"Orange Market, Mararaba, Nasarawa State",50,0.83,Kano,442,7.37,8,7.5,ColdHub Cold Storage,300,3791
+Quin Eze,Yola,Yams,"Bypass Market, Yola, Adamawa State",50,0.83,Makurdi,628.89,10.48,15,2,ColdHub Cold Storage,300,3791
+Vera Popoola,Makurdi,Peppers,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Aba,593,9.88,8,5,ColdHub Cold Storage,300,3791
+Titi Faniyi,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Lagos,958.27,15.97,0,3.5,ColdHub Cold Storage,300,3791
+Ola Tanimu,Yola,Yams,"Bypass Market, Yola, Adamawa State",50,0.83,Ibadan,1304,21.73,15,2,ColdHub Cold Storage,300,3791
+Dami Bello,Jos,Cabbage,"Building Materials Market, Jos, Plateau State",50,0.83,Port Harcourt,756.55,12.61,0,3.5,ColdHub Cold Storage,300,3791
+Lami Vatsa,Sokoto City,Okra,"Yankaba Market, Kano, Kano State",375.39,6.26,Kano,50,0.83,8,7.5,ColdHub Cold Storage,300,3791
+Ike Ojo,Jalingo,Tomatoes,"Building Materials Market, Jos, Plateau State",166.54,2.78,Lagos,829.39,13.82,8,7.5,ColdHub Cold Storage,300,3791
+Bola Nduka,Makurdi,Peppers,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Aba,593,9.88,8,5,ColdHub Cold Storage,300,3791
+Lami Popoola,Kaduna City,Tomatoes,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Abuja,195.51,3.26,8,7.5,ColdHub Cold Storage,300,3791
+Vera Abara,Jos,Peppers,"Building Materials Market, Jos, Plateau State",50,0.83,Aba,727.17,12.12,8,5,ColdHub Cold Storage,300,3791
+Titi Lawal,Makurdi,Yams,"Orange Market, Mararaba, Nasarawa State",135.32,2.26,Makurdi,267,4.45,15,2,ColdHub Cold Storage,300,3791
+Dami Lawal,Dutse,Tomatoes,"Yankaba Market, Kano, Kano State",117.87,1.96,Lagos,992.07,16.53,8,7.5,ColdHub Cold Storage,300,3791
+Sani Nduka,Sokoto City,Okra,"Yankaba Market, Kano, Kano State",375.39,6.26,Lagos,992.07,16.53,8,7.5,ColdHub Cold Storage,300,3791
+Yemi Ojo,Jalingo,Yams,"Building Materials Market, Jos, Plateau State",166.54,2.78,Abuja,374.12,6.24,15,2,ColdHub Cold Storage,300,3791
+Uche Quadri,Ibadan,Okra,"Bodija Market, Ibadan, Oyo State",50,0.83,Ibadan,684.86,11.41,8,7.5,ColdHub Cold Storage,300,3791
+Zainab Hassan,Abakaliki,Okra,"Abakaliki Market, Ebonyi State",50,0.83,Kano,815,13.58,8,7.5,ColdHub Cold Storage,300,3791
+Zainab Danjuma,Jos,Yams,"Building Materials Market, Jos, Plateau State",50,0.83,Ibadan,831.54,13.86,15,2,ColdHub Cold Storage,300,3791
+Chi Williams,Yola,Yams,"Bypass Market, Yola, Adamawa State",50,0.83,Lagos,1331,22.18,15,2,ColdHub Cold Storage,300,3791
+Lami Lawal,Minna,Yams,"Dei Dei Regional Market, Abuja, FCT",177.5,2.96,Lagos,623,10.38,15,2,ColdHub Cold Storage,300,3791
+Uche Nduka,Kaduna City,Yams,"Dan Magaji Market, Zaria, Kaduna State",50,0.83,Makurdi,135.32,2.26,15,2,ColdHub Cold Storage,300,3791
+Dami Quadri,Asaba,Okra,"Smart farmers Market Summit junction, Delta State",50,0.83,Enugu,198.93,3.32,8,7.5,ColdHub Cold Storage,300,3791
+Wale Sule,Katsina City,Cabbage,"Yankaba Market, Kano, Kano State",147.91,2.47,Port Harcourt,1091,18.18,0,3.5,ColdHub Cold Storage,300,3791
+Quin Bello,Lokoja,Yams,"Dei Dei Regional Market, Abuja, FCT",130.92,2.18,Makurdi,293,4.88,15,2,ColdHub Cold Storage,300,3791
