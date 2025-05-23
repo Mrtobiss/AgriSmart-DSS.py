@@ -146,22 +146,6 @@ if st.button("Generate Recommendations", type="primary", key="recommend_button")
             - **Total Transit Time:** {rec['storage_hrs'] + rec['market_hrs']} hours
             """)
 
-        # Heatmap
-        with st.expander("Regional Spoilage Rates"):
-            try:
-                heatmap_data = df.pivot_table(
-                    index='Farm Location',
-                    columns='Crop',
-                    values='spoilage rate at optimal temp(%)per week',
-                    aggfunc='mean'
-                )
-                st.dataframe(
-                    heatmap_data.style.background_gradient(cmap='Reds'),
-                    use_container_width=True
-                )
-            except Exception as e:
-                st.error(f"Error generating heatmap: {str(e)}")
-
 # ======================
 # DSS Knowledge Base
 # ======================
