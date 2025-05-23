@@ -113,6 +113,11 @@ with st.container():
             help="Choose your crop"
         )
 
+# Viewer for Valid Crop-Location Combinations
+with st.expander("📋 View Valid Crop-Location Combinations"):
+    valid_combinations = df[['Farm Location', 'Crop']].drop_duplicates().sort_values(by=['Farm Location', 'Crop'])
+    st.dataframe(valid_combinations.reset_index(drop=True), use_container_width=True)
+
 # DSS Analysis
 if st.button("Generate Recommendations", type="primary", key="recommend_button"):
     rec = get_recommendations(farm_location, crop)
