@@ -140,18 +140,26 @@ if st.button("Generate Recommendations", type="primary", key="recommend_button")
     rec = get_recommendations(farm_location, crop)
     
     if not rec:
-        st.error("🚫 No recommendations found for this crop and location.")
+    st.error("🚫 No recommendations found for this location/crop combination.")
 
-    with st.expander("ℹ Why this might happen"):
-        st.markdown("""
-        - The combination of **crop and farm location** you selected doesn't exist in the dataset.
-        - This may happen if you're exploring an unusual or rare pairing.
+    with st.expander("ℹ️ Why no recommendation?"):
+        # Get valid locations for the selected crop
+        valid_locs = df[df['Crop'].str.lower() == crop.strip().lower()]['Farm Location'].unique()
         
-         Try a more common location for that crop.
-         You can check valid combinations in the section above.
-        """)
-else:
-        st.header("2. DSS Analysis Report")
+        if len(valid_locs) > 0:
+            st.markdown(f"""
+            ❌ We couldn’t find a match for **{crop} in {farm_location}**.
+
+            ✅ However, **{crop} is available** in these locations:
+            - {', '.join(sorted(valid_locs))}
+
+            📌 Please choose one of the listed locations for this crop.
+            """)
+        else:
+            st.markdown(f"""
+            ❌ No records found for **{crop}** in our dataset.
+            Please select a different crop to explore recommendations.
+            """)
         
         cols = st.columns(3)
         cols[0].metric("Distance to Storage", f"{rec['storage_km']} km")
