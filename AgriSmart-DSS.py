@@ -47,13 +47,17 @@ df['Crop'] = df['Crop'].str.strip().str.title()
 df['Farm Location'] = df['Farm Location'].str.strip()
 df.columns = df.columns.str.strip()
 
-# Coerce transport time columns to float for safety
+# Coerce transport time columns to float
 time_cols = [
-    'farm to cold storage (hrs)',
-    'cold storage to market (hrs)'
+    'farm to cold storage(hrs)',
+    'cold storage to market(hrs)'
 ]
+
 for col in time_cols:
-    df[col] = pd.to_numeric(df[col], errors='coerce')
+    if col in df.columns:
+        df[col] = pd.to_numeric(df[col], errors='coerce')
+    else:
+        st.warning(f"Column not found: {col}")
 
 # Preview
 if st.checkbox("Show sample data"):
