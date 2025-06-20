@@ -140,7 +140,7 @@ if st.button("Generate Recommendations", type="primary", key="recommend_button")
     rec = get_recommendations(farm_location, crop)
     
     if not rec:
-    st.error("🚫 No recommendations found for this location/crop combination.")
+        st.error("🚫 No recommendations found for this location/crop combination.")
 
     with st.expander("ℹ️ Why no recommendation?"):
         # Get valid locations for the selected crop
