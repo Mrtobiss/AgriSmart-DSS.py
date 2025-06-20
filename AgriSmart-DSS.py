@@ -140,16 +140,18 @@ if rec:
         - **Estimated Transport Cost (20-ton):** ₦{rec['transport_cost']:,} _(₦3,791/km × distance)_
         - **Total Transit Time:** {rec['storage_hrs'] + rec['market_hrs']} hours
         """)
-else:
-    if st.session_state.get("recommend_button"):
-        st.error("No recommendations available for the selected location and crop.")
-        with st.expander("Why this happened and how to fix it"):
-            valid_locs = df[df['Crop'].str.lower() == crop.strip().lower()]['Farm Location'].unique()
-            if len(valid_locs) > 0:
-                st.markdown(f"The crop **{crop}** is not recorded in **{farm_location}**. Try these instead:")
-                st.markdown(", ".join(sorted(valid_locs)))
-            else:
-                st.markdown(f"No data found for crop **{crop}**. Try a different crop.")
+elif farm_location and crop and rec is None:
+    st.error("No recommendations available for the selected location and crop.")
+
+    with st.expander("Why this happened and how to fix it"):
+        valid_locs = df[df['Crop'].str.lower() == crop.strip().lower()]['Farm Location'].unique()
+        
+        if len(valid_locs) > 0:
+            st.markdown(f"The crop **{crop}** is not recorded in **{farm_location}**.")
+            st.markdown("**Suggested Locations:**")
+            st.markdown(", ".join(f"`{loc}`" for loc in sorted(valid_locs)))
+        else:
+            st.markdown(f"No data found for crop **{crop}**. Try selecting a different crop.")
 
 # ======================
 # DSS Knowledge Base
