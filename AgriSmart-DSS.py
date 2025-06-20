@@ -47,6 +47,15 @@ df['Crop'] = df['Crop'].str.strip().str.title()
 df['Farm Location'] = df['Farm Location'].str.strip()
 df.columns = df.columns.str.strip()
 
+# Coerce transport time columns to float for safety
+time_cols = [
+    'Transport Time: Farm to Cold Storage (hrs)',
+    'Transport Time: Cold Storage to Market (hrs)'
+]
+for col in time_cols:
+    df[col] = pd.to_numeric(df[col], errors='coerce')
+
+# Preview
 if st.checkbox("Show sample data"):
     st.write(df.sample(5))
 
@@ -78,7 +87,7 @@ def get_recommendations(farm_loc, crop_type):
                 "optimal_temp": nearest['optimal storage temp(degree c)'],
                 "spoilage_rate": nearest['spoilage rate at optimal temp(%)per week'],
                 "storage_cost": f"₦{nearest['storage cost(#/crate/day)']}/crate/day",
-                "transport_cost": f"₦{int(nearest['transport cost for 20 ton load(#/km)'] * nearest['farm to cold storage(km)']):,}"
+                "transport_cost": round(nearest['transport cost for 20 ton load(#/km)'] * nearest['farm to cold storage(km)'], -3)"
             }
         return None
     except Exception as e:
@@ -142,7 +151,7 @@ if st.button("Generate Recommendations", type="primary", key="recommend_button")
         with st.expander("Cost Breakdown"):
             st.markdown(f"""
             - **Cold Storage Cost:** {rec['storage_cost']}
-            - **Estimated Transport Cost (20-ton):** {rec['transport_cost']}
+            - **Estimated Transport Cost (20-ton):** ₦{rec['transport_cost']:,} (based on ₦3,791/km x distance)
             - **Total Transit Time:** {rec['storage_hrs'] + rec['market_hrs']} hours
             """)
 
