@@ -128,15 +128,29 @@ with st.container():
 
 # Viewer for Valid Crop-Location Combinations
 with st.expander("📋 View Valid Crop-Location Combinations"):
-    valid_combinations = df[['Farm Location', 'Crop']].drop_duplicates().sort_values(by=['Farm Location', 'Crop'])
-    st.dataframe(valid_combinations.reset_index(drop=True), use_container_width=True)
+    grouped = df.groupby('Crop')['Farm Location'].unique().reset_index()
+for _, row in grouped.iterrows():
+    crop = row['Crop']
+    locations = ', '.join(sorted(row['Farm Location']))
+    st.markdown(f"**{crop}**: {locations}")
+
 
 # DSS Analysis
 if st.button("Generate Recommendations", type="primary", key="recommend_button"):
     rec = get_recommendations(farm_location, crop)
     
     if not rec:
-        st.error("No recommendations found for this location/crop combination")
+    st.error("🚫 No recommendations found for this crop and location.")
+
+    with st.expander("ℹ️ Why this might happen"):
+        st.markdown("""
+        - The combination of **crop and farm location** you selected doesn't exist in the dataset.
+        - This may happen if you're exploring an unusual or rare pairing.
+        
+        ✅ Try a more common location for that crop.
+        📋 You can check valid combinations in the section above.
+        """)
+
     else:
         st.header("2. DSS Analysis Report")
         
