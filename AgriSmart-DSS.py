@@ -150,8 +150,7 @@ if st.button("Generate Recommendations", type="primary", key="recommend_button")
          Try a more common location for that crop.
          You can check valid combinations in the section above.
         """)
-
-    else:
+       else:
         st.header("2. DSS Analysis Report")
         
         cols = st.columns(3)
