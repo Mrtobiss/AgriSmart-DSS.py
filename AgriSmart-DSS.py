@@ -87,7 +87,7 @@ def get_recommendations(farm_loc, crop_type):
                 "optimal_temp": nearest['optimal storage temp(degree c)'],
                 "spoilage_rate": nearest['spoilage rate at optimal temp(%)per week'],
                 "storage_cost": f"₦{nearest['storage cost(#/crate/day)']}/crate/day",
-                "transport_cost": round(nearest['transport cost for 20 ton load(#/km)'] * nearest['farm to cold storage(km)'], -3)"
+                "transport_cost": round(nearest['transport cost for 20 ton load(#/km)'] * nearest['farm to cold storage(km)'], -3),
             }
         return None
     except Exception as e:
