@@ -140,15 +140,15 @@ if st.button("Generate Recommendations", type="primary", key="recommend_button")
     rec = get_recommendations(farm_location, crop)
     
     if not rec:
-    st.error("🚫 No recommendations found for this crop and location.")
+        st.error("🚫 No recommendations found for this crop and location.")
 
-    with st.expander("ℹ️ Why this might happen"):
+    with st.expander("ℹ Why this might happen"):
         st.markdown("""
         - The combination of **crop and farm location** you selected doesn't exist in the dataset.
         - This may happen if you're exploring an unusual or rare pairing.
         
-        ✅ Try a more common location for that crop.
-        📋 You can check valid combinations in the section above.
+         Try a more common location for that crop.
+         You can check valid combinations in the section above.
         """)
 
     else:
