@@ -17,15 +17,13 @@ def load_data():
 
 df = load_data()
 
-# validate data
+# Validate data
 def validate_data(df):
-    """Check for required columns and data"""
     required_cols = [
         'Farm Location', 'Crop', 'cold storage location',
         'optimal storage temp(degree c)', 
         'spoilage rate at optimal temp(%)per week'
     ]
-    
     missing = [col for col in required_cols if col not in df.columns]
     if missing:
         st.error(f"Missing columns: {missing}")
@@ -41,25 +39,21 @@ def validate_data(df):
 if not validate_data(df):
     st.stop()
 
-# Clean data 
+# Clean and prepare data
 df = df.dropna(subset=['Crop', 'Farm Location'])
 df['Crop'] = df['Crop'].str.strip().str.title()
 df['Farm Location'] = df['Farm Location'].str.strip()
 df.columns = df.columns.str.strip()
 
-# Coerce transport time columns to float
-time_cols = [
-    'farm to cold storage(hrs)',
-    'cold storage to market(hrs)'
-]
-
+# Ensure numeric conversion for transport times
+time_cols = ['farm to cold storage(hrs)', 'cold storage to market(hrs)']
 for col in time_cols:
     if col in df.columns:
         df[col] = pd.to_numeric(df[col], errors='coerce')
     else:
         st.warning(f"Column not found: {col}")
 
-# Preview
+# Optional data viewer
 if st.checkbox("Show sample data"):
     st.write(df.sample(5))
 
@@ -72,13 +66,11 @@ def get_recommendations(farm_loc, crop_type):
             (df['Farm Location'].str.lower() == farm_loc.strip().lower()) &
             (df['Crop'].str.lower() == crop_type.strip().lower())
         ]
-        
         if results.empty:
             results = df[
                 df['Farm Location'].str.lower().str.contains(farm_loc.strip().lower()) &
                 df['Crop'].str.lower().str.contains(crop_type.strip().lower())
             ]
-            
         if not results.empty:
             nearest = results.sort_values('farm to cold storage(km)').iloc[0]
             return {
@@ -102,79 +94,62 @@ def get_recommendations(farm_loc, crop_type):
 # DSS USER INTERFACE
 # ======================
 
-# Header
 st.title("🌱 AgriSmart Decision Support System")
 st.markdown("""
 **Reducing Post-Harvest Losses for Nigerian Farmers**  
 *Developed for AgriConnect Summit Hackathon - Team DSS*
 """)
 
-# Main DSS Interface
 with st.container():
     st.header("1. Enter Farm Details")
     col1, col2 = st.columns(2)
     with col1:
-        farm_location = st.selectbox(
-            "SELECT FARM LOCATION",
-            options=sorted(df['Farm Location'].unique()),
-            help="Choose your farm location"
-        )
+        farm_location = st.selectbox("SELECT FARM LOCATION", sorted(df['Farm Location'].unique()))
     with col2:
-        crop = st.selectbox(
-            "SELECT CROP",
-            options=sorted(df['Crop'].unique()),
-            help="Choose your crop"
-        )
+        crop = st.selectbox("SELECT CROP", sorted(df['Crop'].unique()))
 
-# Viewer for Valid Crop-Location Combinations
+# Better Crop-Location Viewer
 with st.expander("📋 View Valid Crop-Location Combinations"):
-    grouped = df.groupby('Crop')['Farm Location'].unique().reset_index()
-for _, row in grouped.iterrows():
-    crop = row['Crop']
-    locations = ', '.join(sorted(row['Farm Location']))
-    st.markdown(f"**{crop}**: {locations}")
+    selected_crop = st.selectbox("Select a crop to view available locations", sorted(df['Crop'].unique()))
+    locations = df[df['Crop'] == selected_crop]['Farm Location'].unique()
+    st.markdown(f"**Available Locations for {selected_crop}:**")
+    st.write(", ".join(sorted(locations)))
 
-
-# DSS Analysis
-if st.button("Generate Recommendations", type="primary", key="recommend_button"):
+# DSS Recommendation
+rec = None
+if st.button("Generate Recommendations", type="primary"):
     rec = get_recommendations(farm_location, crop)
-    
-    if not rec:
-        st.error("No recommendations available for the selected location and crop.")
 
-    with st.expander("Why this happened and how to fix it"):
-        valid_locs = df[df['Crop'].str.lower() == crop.strip().lower()]['Farm Location'].unique()
-        
-        if len(valid_locs) > 0:
-            st.markdown(f"""
-            The crop **{crop}** is not recorded in **{farm_location}** in the dataset.  
-            You can try one of these locations instead:  
-            {', '.join(sorted(valid_locs))}
-            """)
-        else:
-            st.markdown(f"""
-            The crop **{crop}** has no available data in this dataset.
-            Try selecting a different crop to proceed.
-            """)
-        
-        cols = st.columns(3)
-        cols[0].metric("Distance to Storage", f"{rec['storage_km']} km")
-        cols[1].metric("Optimal Temp", f"{rec['optimal_temp']}°C")
-        cols[2].metric("Weekly Spoilage", f"{rec['spoilage_rate']}%")
-        
-        with st.expander("Location Details"):
-            st.markdown(f"""
-            **Farm Location:** {farm_location}  
-            **Nearest Cold Storage:** {rec['storage_name']} ({rec['storage_km']} km away)  
-            **Recommended Market:** {rec['market_name']} ({rec['market_km']} km from storage)
-            """)
-        
-        with st.expander("Cost Breakdown"):
-            st.markdown(f"""
-            - **Cold Storage Cost:** {rec['storage_cost']}
-            - **Estimated Transport Cost (20-ton):** ₦{rec['transport_cost']:,} (based on ₦3,791/km x distance)
-            - **Total Transit Time:** {rec['storage_hrs'] + rec['market_hrs']} hours
-            """)
+if rec:
+    st.header("2. DSS Analysis Report")
+    cols = st.columns(3)
+    cols[0].metric("Distance to Storage", f"{rec['storage_km']} km")
+    cols[1].metric("Optimal Temp", f"{rec['optimal_temp']}°C")
+    cols[2].metric("Weekly Spoilage", f"{rec['spoilage_rate']}%")
+    
+    with st.expander("Location Details"):
+        st.markdown(f"""
+        **Farm Location:** {farm_location}  
+        **Nearest Cold Storage:** {rec['storage_name']} ({rec['storage_km']} km away)  
+        **Recommended Market:** {rec['market_name']} ({rec['market_km']} km from storage)
+        """)
+    
+    with st.expander("Cost Breakdown"):
+        st.markdown(f"""
+        - **Cold Storage Cost:** {rec['storage_cost']}
+        - **Estimated Transport Cost (20-ton):** ₦{rec['transport_cost']:,} _(₦3,791/km × distance)_
+        - **Total Transit Time:** {rec['storage_hrs'] + rec['market_hrs']} hours
+        """)
+else:
+    if st.session_state.get("recommend_button"):
+        st.error("No recommendations available for the selected location and crop.")
+        with st.expander("Why this happened and how to fix it"):
+            valid_locs = df[df['Crop'].str.lower() == crop.strip().lower()]['Farm Location'].unique()
+            if len(valid_locs) > 0:
+                st.markdown(f"The crop **{crop}** is not recorded in **{farm_location}**. Try these instead:")
+                st.markdown(", ".join(sorted(valid_locs)))
+            else:
+                st.markdown(f"No data found for crop **{crop}**. Try a different crop.")
 
 # ======================
 # DSS Knowledge Base
@@ -182,10 +157,9 @@ if st.button("Generate Recommendations", type="primary", key="recommend_button")
 with st.container():
     st.header("3. DSS Knowledge Base")
     tab1, tab2 = st.tabs(["Crop Guidelines", "About This System"])
-    
+
 with tab1:
-    focus_crops = sorted(df['Crop'].unique())
-    for crop_name in focus_crops:
+    for crop_name in sorted(df['Crop'].unique()):
         with st.expander(f"{crop_name.upper()} GUIDELINES"):
             try:
                 crop_data = df[df['Crop'].str.lower() == crop_name.lower()]
@@ -193,14 +167,11 @@ with tab1:
                     'optimal storage temp(degree c)',
                     'spoilage rate at optimal temp(%)per week'
                 ])
-                
                 if not crop_data.empty:
                     avg_temp = crop_data['optimal storage temp(degree c)'].mean()
                     avg_spoilage = crop_data['spoilage rate at optimal temp(%)per week'].mean()
-                    
                     st.metric("Optimal Storage Temp", f"{avg_temp:.1f}°C")
                     st.metric("Avg Weekly Spoilage", f"{avg_spoilage:.1f}%")
-                    
                     top_locs = crop_data['cold storage location'].value_counts().head(3)
                     if not top_locs.empty:
                         st.write("**Top Storage Facilities:**")
@@ -212,7 +183,7 @@ with tab1:
                     st.warning(f"No data available for {crop_name}")
             except Exception as e:
                 st.error(f"Error loading {crop_name} data: {str(e)}")
-    
+
 with tab2:
     st.markdown("""
     ## About AgriSmart DSS
@@ -248,7 +219,6 @@ with tab2:
 # ======================
 st.header("Regional Investment Opportunities")
 with st.expander("View Top Infrastructure Needs", expanded=False):
-    
     investment_needs = {
         "Tomatoes": ["Cold storage hubs", "Evaporative coolers"],
         "Yams": ["Solar dryers", "Ventilated warehouses"],
@@ -256,7 +226,6 @@ with st.expander("View Top Infrastructure Needs", expanded=False):
         "Cabbage": ["Refrigerated transport", "Pre-coolers"],    
         "Peppers": ["Drying facilities", "Controlled atmosphere storage"]
     }.get(crop, ["General storage improvement"])
-    
     st.write(f"**Priority investments for {crop}:**")
     for need in investment_needs:
         st.markdown(f"- {need}")
@@ -266,17 +235,16 @@ roi_table = {
     "Project": ["Cold Storage Hub", "Processing Center", "Mobile Cooling Units"],
     "ROI (Years)": [3.2, 4.5, 2.8],  
     "Key Benefit": [
-        "40-60% spoilage reduction (best for tomatoes/yam)",
+        "40–60% spoilage reduction (best for tomatoes/yam)",
         "Value addition for 80% of produce (okra/cabbage)",
         "Youth-friendly low-cost entry (₦50k starter kits)"  
     ]
 }
 st.table(pd.DataFrame(roi_table))
 
-# Footer
 st.markdown("---")
 st.caption("""
 Developed for AgriConnect Summit Hackathon | Data sources: FMARD, FAO, NARO  
 Team Members: Ibrahim Yisau | Osazuwa Micheal | Hauwa Salihu | Yussuff Yussuff  
-Contact: i.yisau@gmail.com | Streamlit App | All rights reserved © 2025
+Contact: i.yisau@gmail.com | All rights reserved © 2025
 """)
