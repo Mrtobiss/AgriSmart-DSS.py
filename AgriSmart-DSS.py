@@ -49,8 +49,8 @@ df.columns = df.columns.str.strip()
 
 # Coerce transport time columns to float for safety
 time_cols = [
-    'Transport Time: Farm to Cold Storage (hrs)',
-    'Transport Time: Cold Storage to Market (hrs)'
+    'farm to cold storage (hrs)',
+    'cold storage to market (hrs)'
 ]
 for col in time_cols:
     df[col] = pd.to_numeric(df[col], errors='coerce')
