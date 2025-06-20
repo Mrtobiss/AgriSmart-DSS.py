@@ -140,25 +140,21 @@ if st.button("Generate Recommendations", type="primary", key="recommend_button")
     rec = get_recommendations(farm_location, crop)
     
     if not rec:
-        st.error("🚫 No recommendations found for this location/crop combination.")
+        st.error("No recommendations available for the selected location and crop.")
 
-    with st.expander("ℹ️ Why no recommendation?"):
-        # Get valid locations for the selected crop
+    with st.expander("Why this happened and how to fix it"):
         valid_locs = df[df['Crop'].str.lower() == crop.strip().lower()]['Farm Location'].unique()
         
         if len(valid_locs) > 0:
             st.markdown(f"""
-            ❌ We couldn’t find a match for **{crop} in {farm_location}**.
-
-            ✅ However, **{crop} is available** in these locations:
-            - {', '.join(sorted(valid_locs))}
-
-            📌 Please choose one of the listed locations for this crop.
+            The crop **{crop}** is not recorded in **{farm_location}** in the dataset.  
+            You can try one of these locations instead:  
+            {', '.join(sorted(valid_locs))}
             """)
         else:
             st.markdown(f"""
-            ❌ No records found for **{crop}** in our dataset.
-            Please select a different crop to explore recommendations.
+            The crop **{crop}** has no available data in this dataset.
+            Try selecting a different crop to proceed.
             """)
         
         cols = st.columns(3)
