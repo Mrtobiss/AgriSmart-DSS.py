@@ -165,22 +165,6 @@ with tab1:
             else:
                 st.warning("No data available")
 
-with tab2:
-    st.markdown("""
-    ### About AgriSmart DSS
-    A decision support tool for young Nigerian farmers to:
-    - Identify nearest cold storage
-    - Understand spoilage risks
-    - Estimate logistics cost
-    - Explore regional infrastructure gaps
-
-    **Built with:**  
-    - Real 1,000-farm dataset  
-    - Streamlit (lightweight, mobile-first)  
-    - ColdHubs logistics info  
-    - NARO + FAO spoilage data
-    """)
-
 # ======================
 # Investment Section
 # ======================
