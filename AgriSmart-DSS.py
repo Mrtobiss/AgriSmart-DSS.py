@@ -88,7 +88,7 @@ def get_recommendations(farm_loc, crop_type):
 st.title("🌱 AgriSmart Decision Support System")
 st.markdown("""
 **Reducing Post-Harvest Losses for Nigerian Farmers**  
-*Built for Lagos Agrithon 2025 - Team DSS*
+*Built - Team DSS*
 """)
 
 # Input form
@@ -197,6 +197,6 @@ st.table(pd.DataFrame(roi_data))
 # ======================
 st.markdown("---")
 st.caption("""
-AgriSmart DSS | For Lagos Agrithon 2025  
+AgriSmart DSS | For Startup Innovation Challenge 2025  
 Team Members: Ibrahim Yisau, Osazuwa Michael, Hauwa Salihu, Yussuff Yussuff  
 """)
