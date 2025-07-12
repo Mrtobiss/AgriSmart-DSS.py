@@ -88,7 +88,7 @@ def get_recommendations(farm_loc, crop_type):
 st.title("🌱 AgriSmart Decision Support System")
 st.markdown("""
 **Reducing Post-Harvest Losses for Nigerian Farmers**  
-*Built - Team DSS*
+*Built by - Team DSS*
 """)
 
 # Input form
